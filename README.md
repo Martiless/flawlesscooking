@@ -1,4 +1,4 @@
-# flawless-cooking
+# Flawless Cooking Kids Cookery School 
 
 This is a website for kids cookery classes based in Cork. Complete with enquiry form, downloadable sample recipe and an about section. Flawless Cooking is a fictional cookery school, however, it is an actual cookery blog that I own. 
 This website has been created as the first Milestone project for Code Institute's Full Stack Software Development Diploma. 
