@@ -30,13 +30,13 @@
     </header>
 
     <section>
-       <div id="Main-image">
-          Main Logo image
-       </div>
+        <div id="Main-image">
+            Main Logo image
+        </div>
     </section>
     <section>
         <div id="kids-cooking">
-        Little girl cooking at hob
+            Little girl cooking at hob
         </div>
         <div>
             <table>
@@ -64,7 +64,25 @@
         </div>
     </section>
     <section>
-        Enquiries Form
+        <div>
+            <h3>Enquire here!</h3>
+
+            <form method="POST" action="">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="full-name" required><br>
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email-address" required><br>
+                <p>Age of Child</p>
+                <input type="radio" id="6-8" name="childs-age" value="6-8" required>
+                <label for="6-8">6-8 years</label>
+                <input type="radio" id="8-10" name="childs-age" value="8-10">
+                <label for="8-10">8-10 years</label>
+                <input type="radio" id="10-12" name="childs-age" value="10-12">
+                <label for="10-12">10-12 years</label><br>
+                <textarea name="enquiry" row="10" cols="40" required>Enquiry</textarea><br>
+                <button>Submit Enquiry</button>
+            </form>
+        </div>
     </section>
     <footer>
         Social media links
