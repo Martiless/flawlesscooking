@@ -38,7 +38,7 @@ The goals for this site is as follows:
 * An enquiry form to allow users make enquires about the classes straight from the Home page
 * A downloadable recipes for users to save to their desktops/tablets/mobile devices 
   
-### Wireframe:
+## Wireframe:
 The wireframe was created using Balsamic and consists of 3 pages, Home, Recipe and About.
 
 Home page:
