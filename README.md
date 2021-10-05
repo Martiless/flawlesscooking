@@ -50,3 +50,9 @@ Recipe:
 About: 
 ![image](https://user-images.githubusercontent.com/81761397/136015563-6cc1cebc-6b6b-4aca-ab49-1b04704b44a8.png)
 
+## Testing:
+
+* Tested navigation bar to make sure all links worked correctly.
+* Tested "Header" logo to make sure it brought me back to the homepage.
+* Tested enquiry from to make sure all the required elements were working correctly.
+
