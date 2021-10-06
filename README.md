@@ -64,4 +64,7 @@ About:
       1. Looked at source to make sure I was using the correct syntax, I had added in an extra full stop. Removing this extra full stop solved my issue.
 1. Second image not cropping correctly.
       1. Instead of using the same method as the header image, I inserted the second image in the html as a < img > tag and styled it using CSS
+1. Image and text in "Middle" would not wrap for me. 
+      1. I tried a number of things including rewriting the code, troubleshooting to see if I had used the wrong code in the first place and eventually contacted the Code Institute tutors to see if I could get a better understanding as to why this was not working for me the way I wanted it to. 
+      1. After speaking with a tutor I was able to see that I had done 
 
