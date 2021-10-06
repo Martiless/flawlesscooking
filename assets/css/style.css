@@ -73,14 +73,14 @@ h2 {
 
 .right-side {
     float: right;
-    width: 70%;
+    width: 60%;
     margin: 0 0 20px 0;
     display: block;
 }
 
 .left-side {
     float: left;
-    width: 30%;
+    width: 40%;
     margin: 0 0 20px 0;
     display: block;
 }
@@ -114,8 +114,6 @@ tr {
     color: rgb(54, 53, 53);
     background-color: rgba(41, 39, 76, 0.5);
     max-width: 400px;
-    position: absolute;
-    right: 10%;
     padding: 5px 10px;
        
 }
