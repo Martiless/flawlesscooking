@@ -59,7 +59,7 @@ About:
 
 ## Bugs:
 1. Font Awesome fonts are copied into the code but when the webiste is loaded are not showing up. 
-      1. 
+      1. I had forgotten to add the Font Awesome source code to the footer section of each page.
 1. Main image not loading when page refreshed.
       1. Looked at source to make sure I was using the correct syntax, I had added in an extra full stop. Removing this extra full stop solved my issue.
 1. Second image not cropping correctly.

@@ -54,6 +54,7 @@ h2 {
     width: 100%;
     background: url('../images/Cookie-cutter.jpg') no-repeat center center;
     clear: both;
+    background-color: #29274C;
 }
 
 
@@ -65,4 +66,8 @@ h2 {
     object-fit: cover;
     border: 5px solid #012A36
 
+}
+
+#enquiry-form {
+    
 }
