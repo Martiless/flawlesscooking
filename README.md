@@ -56,3 +56,7 @@ About:
 * Tested "Header" logo to make sure it brought me back to the homepage.
 * Tested enquiry from to make sure all the required elements were working correctly.
 
+
+## Bugs:
+* Font Awesome fonts are copied into the code but when the webiste is loaded are not showing up. 
+
