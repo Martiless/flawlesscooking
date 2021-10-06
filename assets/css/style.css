@@ -64,43 +64,75 @@ h2 {
 
 /* Class Time section*/
 
+#middle {
+    background-color: #012A36;
+    color: whitesmoke;
+    height: 550px;
+    width: 100%;
+}
+
+.right-side {
+    float: right;
+    padding: 50px;
+    margin-bottom: 20px;
+    align: right;
+    display: block;
+}
+
+#table {
+    float: right;
+    padding: 50px;
+    margin-bottom: 20px;
+    align-self: start;
+    display: block;
+}
+
+th, tr {
+    border: 2px solid #012A36;
+    padding: 5px;
+}
+
 #kids-cooking {
-    width: 500px;
-    height: 500px;
+    width: 450px;
+    height: 450px;
+    float: left;
     object-fit: cover;
     border: 5px solid #012A36;
 }
 
-#table {
-    clear: both;
-    float: right;
-}
 
-#enquiry-form {
-    float: right;
-    border: 1px solid #012A36;
-    color: rgb(54, 53, 53);
-    background-color: rgba(126, 82, 160, 0.5);
-    max-width: 400px;
-    position: absolute;
-    right: 10%;
-    padding: 5px 10px;
-    clear: both;
-}
+    /* Enquiry form section */
 
-.input {
-    background-color: white;
-    border: 1px solid #012A36;
-    width: 100%;
-    height: 20px;
-    margin: 10px 0 30px 0;
-}
+    #enquiry-form {
+        float: right;
+        border: 1px solid #012A36;
+        color: rgb(54, 53, 53);
+        background-color: rgba(41, 39, 76, 0.5);
+        max-width: 400px;
+        position: absolute;
+        right: 10%;
+        padding: 5px 10px;
+    }
 
-#submit-button {
-    border-radius: 2px;
-    background-color: #012A36;
-    color: white;
-    text-align: center;
-    padding: 15px 30px;
-    font-size: medium;
-}
+    .input {
+        background-color: white;
+        border: 1px solid #012A36;
+        width: 100%;
+        height: 20px;
+        margin: 10px 0 30px 0;
+    }
+
+    #submit-button {
+        border-radius: 2px;
+        background-color: #012A36;
+        color: white;
+        text-align: center;
+        padding: 15px 30px;
+        font-size: medium;
+    }
+
+    #submit-button:hover {
+        border: #012A36;
+        background-color: #7E52A0;
+        color: white;
+    }
