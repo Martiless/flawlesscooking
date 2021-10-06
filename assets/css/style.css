@@ -1,5 +1,67 @@
 @import url('https://fonts.googleapis.com/css2?family=Italianno&family=Roboto&display=swap');
 
+* {
+    margin: 10px;
+    padding: 0;
+    border: none;
+}
+
 body {
     font-family: Roboto, sans-serif;
+}
+
+/* header */
+
+h2 {
+    font-family: Italianno, sans-serif;
+    font-size: xxx-large;
+    letter-spacing: 3px;
+    color: #7E52A0;
+}
+
+#logo {
+    text-decoration: none;
+    float: left;
+}
+
+/* Navigation bar */
+
+#navigation li {
+    float: right;
+    list-style-type:none;
+    letter-spacing: 3px;
+    color: #7E52A0;
+}
+
+#navigation a {
+    text-decoration: none;
+    color: #7E52A0;
+}
+
+#navigation a:hover {
+    color: #012A36;
+    border-bottom: 2px solid #012A36;
+}
+
+.active {
+    border-bottom: 2px solid #7E52A0;
+}
+
+/*Main image*/
+
+#main-image {
+    height: 550px;
+    width: 100%;
+    background: url('../images/Cookie-cutter.jpg') no-repeat center center;
+    clear: both;
+}
+
+
+/* Class Time section*/
+
+.kids-cooking {
+    width: 600px; 
+    height: 600px;
+    object-fit: cover;
+    border: 5px solid #012A36
 }

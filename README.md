@@ -29,7 +29,7 @@ The goals for this site is as follows:
 * To provide information to users about kids cookery classes in Cork
 * To allow users to make enquiries about classes
 * To provide users with a downloadable sample recipe
-* To allow users gain some inforamtion about the teacher 
+* To allow users gain some information about the teacher 
 
 ### Features:
 
@@ -59,4 +59,5 @@ About:
 
 ## Bugs:
 * Font Awesome fonts are copied into the code but when the webiste is loaded are not showing up. 
+* Main image not loading when page refreshed.
 
