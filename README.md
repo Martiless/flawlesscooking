@@ -58,6 +58,10 @@ About:
 
 
 ## Bugs:
-* Font Awesome fonts are copied into the code but when the webiste is loaded are not showing up. 
-* Main image not loading when page refreshed.
+1. Font Awesome fonts are copied into the code but when the webiste is loaded are not showing up. 
+      1. 
+1. Main image not loading when page refreshed.
+      1. Looked at source to make sure I was using the correct syntax, I had added in an extra full stop. Removing this extra full stop solved my issue.
+1. Second image not cropping correctly.
+      1. Instead of using the same method as the header image, I inserted the second image in the html as a < img > tag and styled it using CSS
 
