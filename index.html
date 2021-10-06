@@ -41,57 +41,60 @@
             <p>Here at Flawless Cooking Cookery School we aim to teach kids all the skills they will need to become
                 budding little chefs. From cooking and baking to prepping
                 and knife skills, we teach your child the basics in a fun and enjoyable way. </p>
-            <p>Nothing helps your kids become healthier, happier and more adventurous than when they are trying something from themselves. </p>
+            <p>Nothing helps your kids become healthier, happier and more adventurous than when they are trying
+                something from themselves. </p>
         </div>
     </section>
     <section>
         <div>
-            <img src="/assets/images/Little-girl-cooking-at-hob.jpg" alt="Little girl cooking at hob" class="kids-cooking">
+            <img src="/assets/images/Little-girl-cooking-at-hob.jpg" alt="Little girl cooking at hob" id="kids-cooking">
 
         </div>
-        <div>
-            <table>
-                <tr>
-                    <th>Age</th>
-                    <th>Day</th>
-                    <th>Time</th>
-                </tr>
-                <tr>
-                    <th>6 - 8 years</th>
-                    <th>Friday</th>
-                    <th>15.00 to 18.00</th>
-                </tr>
-                <tr>
-                    <th>8 - 10 years</th>
-                    <th>Saturday</th>
-                    <th>10.00 to 13.00</th>
-                </tr>
-                <tr>
-                    <th>10 - 12 years</th>
-                    <th>Saturday</th>
-                    <th>15.00 to 18.00</th>
-                </tr>
-            </table>
+        <div id="right-side">
+            <div>
+                <table>
+                    <tr>
+                        <th>Age</th>
+                        <th>Day</th>
+                        <th>Time</th>
+                    </tr>
+                    <tr>
+                        <th>6 - 8 years</th>
+                        <th>Friday</th>
+                        <th>15.00 to 18.00</th>
+                    </tr>
+                    <tr>
+                        <th>8 - 10 years</th>
+                        <th>Saturday</th>
+                        <th>10.00 to 13.00</th>
+                    </tr>
+                    <tr>
+                        <th>10 - 12 years</th>
+                        <th>Saturday</th>
+                        <th>15.00 to 18.00</th>
+                    </tr>
+                </table>
+            </div>
         </div>
     </section>
     <section>
-        <div id=enquiry-form>
+        <div id="enquiry-form">
             <h3>Enquire here! <i class="fas fa-pencil-alt"></i></h3>
 
             <form method="POST" action="">
                 <label for="name">Full Name</label>
-                <input type="text" id="name" name="full-name" required><br>
+                <input type="text" id="name" name="full-name" class="input" required><br>
                 <label for="email">Email Address</label>
-                <input type="email" id="email" name="email-address" required><br>
+                <input type="email" id="email" name="email-address" class="input" required><br>
                 <p>Age of Child</p>
-                <input type="radio" id="6-8" name="childs-age" value="6-8" required>
+                <input type="radio" id="6-8" name="childs-age" value="6-8" class="input" required>
                 <label for="6-8">6-8 years</label>
                 <input type="radio" id="8-10" name="childs-age" value="8-10">
                 <label for="8-10">8-10 years</label>
                 <input type="radio" id="10-12" name="childs-age" value="10-12">
                 <label for="10-12">10-12 years</label><br>
-                <textarea name="enquiry" row="10" cols="40" required>Enquiry</textarea><br>
-                <button>Submit Enquiry</button>
+                <textarea name="enquiry" row="10" cols="40" class="input" required></textarea><br>
+                <button id="submit-button">Submit Enquiry</button>
             </form>
         </div>
     </section>
