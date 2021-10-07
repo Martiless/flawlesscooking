@@ -79,9 +79,9 @@ About:
 ## Credits:
 ### Content:
 
-1. The icons used throughout website were taken from [Font] [Awesome] (https://fontawesome.com/)  
-1. The header font was taken from [Google] [Fonts] (https://fonts.google.com/)
-1. Instructions on who to crop an image was taken from [Digital] [Ocean] (https://www.digitalocean.com/)
+1. The icons used throughout website were taken from [FontAwesome](https://fontawesome.com/)  
+1. The header font was taken from [GoogleFonts](https://fonts.google.com/)
+1. Instructions on who to crop an image was taken from [DigitalOcean](https://www.digitalocean.com/)
 
 ### Media:
 
