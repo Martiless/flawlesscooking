@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Italianno&family=Roboto&display=swap');
 
 * {
-    margin: 10px;
+    margin: 20px;
     padding: 0;
     border: none;
 }
 
 body {
-    font-family:Georgia, 'Times New Roman', Times, serif
+    font-family: Georgia, 'Times New Roman', Times, serif
 }
 
 hr {
@@ -109,13 +109,19 @@ tr {
 
 /* Enquiry form section */
 
+#third-section {
+    display: block;
+    text-align: center;
+}
+
 .enquiry-form {
     border: 1px solid #012A36;
     color: rgb(54, 53, 53);
     background-color: rgba(41, 39, 76, 0.5);
-    max-width: 400px;
+    max-width: 500px;
     padding: 5px 10px;
-       
+    display: inline-block;
+
 }
 
 .input {
@@ -141,22 +147,85 @@ tr {
     color: white;
 }
 
+/*Media queries for index.html*/
+
+@media screen and (max-width: 1200px) {
+    #middle {
+        width: 60%;
+        height: 1200px;
+        margin: auto
+    }
+
+    .left-side,
+    .right-side {
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    #kids-cooking {
+        clear: both;
+        width: 70%;
+        padding: 0;
+        margin: 5px 80px;
+    }
+
+}
+
+/*Media enquiry for tablet sized screens*/
+@media screen and (max-width: 900px) {
+
+    #navigation {
+        float: left;
+        list-style-type: none;
+        letter-spacing: 1px;
+    }
+
+    #main-image {
+        width: 100%;
+        height: 300px;
+    }
+
+    #middle {
+        width: 60%;
+        height: 1200px;
+        margin: auto
+    }
+
+    .left-side,
+    .right-side {
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    #kids-cooking {
+        clear: both;
+        width: 80%;
+        padding: 0;
+        margin: 5px 30px;
+    }
+}
+
 /*Footer*/
 
 footer {
     height: 200px;
+    padding-top: 5px;
 
 }
 
-footer h4 {
+footer h2 {
     text-align: center;
+
 }
 
 .social {
     text-align: center;
+    font-size: x-large;
 }
 
-.social > li {
+.social>li {
     text-decoration: none;
     display: inline;
     color: whitesmoke;

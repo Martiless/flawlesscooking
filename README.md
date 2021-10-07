@@ -15,6 +15,8 @@ This website has been created as the first Milestone project for Code Institute'
  1. Accessibilty
  1. Deployment
  1. Credits
+      1. Content
+      1. Media
   
 
 ## Site Goals:
@@ -67,4 +69,20 @@ About:
 1. Image and text in "Middle" would not wrap for me. 
       1. I tried a number of things including rewriting the code, troubleshooting to see if I had used the wrong code in the first place and eventually contacted the Code Institute tutors to see if I could get a better understanding as to why this was not working for me the way I wanted it to. 
       1. After speaking with a tutor I was able to see that I had to take a closer look at my margins and padding to allow both the image and text fit side my side in the designated area.
+
+## Valitation:
+
+## Accessibilty:
+
+## Deployment:
+
+## Credits:
+### Content:
+
+1. The icons for this website were taken from Font Awesome 
+1. The header font was taken from Google Fonts
+
+### Media:
+
+1. Images for this site were downloaded from [Pexel](https://www.pexels.com/)
 
