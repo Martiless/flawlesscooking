@@ -234,7 +234,7 @@ footer h2 {
 /*Recipe page styling*/
 
 #brownie {
-    width: 50%;
+    width: 500px;
     height: 500px;
     float: left;
     object-fit: cover;
@@ -245,4 +245,25 @@ footer h2 {
     float: right;
     width: 50%;
     margin: 0 0 20px 0;
+}
+
+/*About page*/
+
+.break {
+    height: 200px;
+    width: 100%;
+    background-color: white;
+}
+
+#teacher {
+    width: 500px;
+    height: 500px;
+    float: left;
+    object-fit: cover;
+    border: 5px solid #012A36;
+}
+
+#about-me {
+    font-size: large;
+    float: right;
 }
