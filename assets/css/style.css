@@ -14,6 +14,10 @@ hr {
     border: 5px solid #012A36;
 }
 
+.page-break {
+    margin: 20px;
+    padding-bottom: 200px;
+}
 /* header */
 
 h2 {
@@ -233,27 +237,48 @@ footer h2 {
 
 /*Recipe page styling*/
 
+div> h3 {
+    margin-top: 50px;
+    font-family: Italianno, sans-serif;
+    font-size: xxx-large;
+    letter-spacing: 3px;
+    color: #7E52A0;
+}
+
 #brownie {
-    width: 500px;
-    height: 500px;
+    width: 450px;
+    height: 550px;
     float: left;
     object-fit: cover;
     border: 5px solid #012A36;
 }
 
-#recipe {
+#method {
     float: right;
-    width: 50%;
-    margin: 0 0 20px 0;
+    width: 33%;
+    
+   }
+
+#ingredients {
+    float: left;
+    width: 33%;
+    margin: 2px;
+    line-height: 23px;
+    text-align: center;
+    
+}
+
+#image {
+    float:left;
+    width: 33%;
+    margin: 0px, 10px, 20px, 0px;
+}
+
+#ingerdients, ul {
+    list-style-type: none;
 }
 
 /*About page*/
-
-.break {
-    height: 200px;
-    width: 100%;
-    background-color: white;
-}
 
 #teacher {
     width: 500px;
