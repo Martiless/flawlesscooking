@@ -278,6 +278,17 @@ footer h2 {
     list-style-type: none;
 }
 
+#button {
+    background-color: #29274C;
+    width: 300px;
+    height: 150px;
+    color: whitesmoke;
+    margin-top: 150px;
+    cursor: pointer;
+    font-size: 20px;
+    display: initial
+}
+
 /*Media queries for index.html*/
 
 @media screen and (max-width: 1200px) {
