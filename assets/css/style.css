@@ -278,6 +278,66 @@ div> h3 {
     list-style-type: none;
 }
 
+/*Media queries for index.html*/
+
+@media screen and (max-width: 1200px) {
+    #image {
+        width: 33%;
+        height: 1200px;
+        margin: auto
+    }
+
+    #method,
+    #ingredients {
+        width: 100%;
+        float: right;
+        padding: 0;
+    }
+
+    #brownie {
+        clear: both;
+        width: 70%;
+        padding: 0;
+        margin: 5px 80px;
+    }
+
+}
+
+/*Media quiries for tablet sized screens*/
+@media screen and (max-width: 900px) {
+
+    #navigation {
+        float: left;
+        list-style-type: none;
+        letter-spacing: 1px;
+    }
+
+    .main-image {
+        width: 100%;
+        height: 300px;
+    }
+
+    #image {
+        width: 33%;
+        height: 1200px;
+        margin: auto
+    }
+
+    #method,
+    #ingredients {
+        width: 100%;
+        float: right;
+        padding: 0;
+    }
+
+    #brownie {
+        clear: both;
+        width: 80%;
+        padding: 0;
+        margin: 5px 30px;
+    }
+}
+
 /*About page*/
 
 #teacher {
