@@ -302,6 +302,68 @@ footer h2 {
 
 }
 
+/*Media queries for footer*/
+
+@media screen and (max-width: 1300px)
+    {
+        .footer {
+            height: 200px;
+            padding-top: 5px;
+        
+        }
+        
+        footer h2 {
+            text-align: center;
+        
+        }
+        
+        .social {
+            text-align: center;
+            font-size: x-large;      
+    
+}
+/*Media queries for tablet devices*/
+
+@media screen and (max-width: 950px)
+    {
+        .footer {
+            height: 100px;
+            padding-top: 5px;
+        
+        }
+        
+        footer h2 {
+            text-align: center;
+        
+        }
+        
+        .social {
+            text-align: center;
+            font-size: large;
+           
+}
+
+/*Media queries for tablet devices*/
+
+@media screen and (max-width: 600px)
+    {
+        .footer {
+            height: 100px;
+            padding-top: 5px;
+        
+        }
+        
+        footer h2 {
+            text-align: center;
+            font-size: medium;
+        
+        }
+        
+        .social {
+            text-align: center;
+            font-size: medium;
+           
+}
 /*Recipe page styling*/
 
 #heading {
@@ -570,3 +632,17 @@ ul {
     }
 
 }
+
+/* Gallery */
+
+#gallery {
+    line-height: 0;
+    column-count: 3;
+    column-gap: 25px;
+}
+
+#gallery > img {
+    width: 100%;
+    height: auto;
+}
+
