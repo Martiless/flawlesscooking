@@ -246,8 +246,8 @@ footer h2 {
 }
 
 #brownie {
-    width: 450px;
-    height: 550px;
+    width: 365px;
+    height: 620px;
     float: left;
     object-fit: cover;
     border: 5px solid #012A36;
@@ -255,15 +255,15 @@ footer h2 {
 
 #method {
     float: right;
-    width: 33%;
-    
+    width: 32%;
+    margin:1px;
    }
 
 #ingredients {
     float: left;
-    width: 33%;
+    width: 32%;
     margin: 2px;
-    line-height: 23px;
+    line-height: 40px;
     text-align: center;
     
 }
@@ -291,10 +291,10 @@ footer h2 {
 
 /*Media queries for index.html*/
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1300px) {
     #image {
         width: 33%;
-        height: 1200px;
+        height: 600px;
         margin: auto
     }
 
@@ -315,7 +315,7 @@ footer h2 {
 }
 
 /*Media quiries for tablet sized screens*/
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 950px) {
 
     #navigation {
         float: left;
