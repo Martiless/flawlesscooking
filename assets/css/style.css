@@ -101,7 +101,7 @@ h2 {
     margin: 0 0 20px 0;
     align-self: start;
     display: block;
-  }
+}
 
 th,
 tr {
@@ -240,7 +240,7 @@ tr {
     #middle {
         width: 100%;
         height: 1100px;
-        margin-top:350px;
+        margin-top: 350px;
     }
 
     .left-side,
@@ -258,7 +258,7 @@ tr {
         margin: 5px 30px;
     }
 
-    .enquiry-form{
+    .enquiry-form {
         border: 1px solid #012A36;
         color: rgb(54, 53, 53);
         background-color: rgba(41, 39, 76, 0.5);
@@ -266,6 +266,7 @@ tr {
         padding: 5px 10px;
         display: inline-block;
     }
+
     .input {
         background-color: white;
         border: 1px solid #012A36;
@@ -304,66 +305,67 @@ footer h2 {
 
 /*Media queries for footer*/
 
-@media screen and (max-width: 1300px)
-    {
-        .footer {
-            height: 200px;
-            padding-top: 5px;
-        
-        }
-        
-        footer h2 {
-            text-align: center;
-        
-        }
-        
-        .social {
-            text-align: center;
-            font-size: x-large;      
-    
-}
-/*Media queries for tablet devices*/
+@media screen and (max-width: 1300px) {
+    .footer {
+        height: 200px;
+        padding-top: 5px;
 
-@media screen and (max-width: 950px)
-    {
-        .footer {
-            height: 100px;
-            padding-top: 5px;
-        
-        }
-        
-        footer h2 {
-            text-align: center;
-        
-        }
-        
-        .social {
-            text-align: center;
-            font-size: large;
-           
+    }
+
+    footer h2 {
+        text-align: center;
+
+    }
+
+    .social {
+        text-align: center;
+        font-size: x-large;
+
+    }
 }
 
 /*Media queries for tablet devices*/
 
-@media screen and (max-width: 600px)
-    {
-        .footer {
-            height: 100px;
-            padding-top: 5px;
-        
-        }
-        
-        footer h2 {
-            text-align: center;
-            font-size: medium;
-        
-        }
-        
-        .social {
-            text-align: center;
-            font-size: medium;
-           
+@media screen and (max-width: 950px) {
+    .footer {
+        height: 100px;
+        padding-top: 5px;
+
+    }
+
+    footer h2 {
+        text-align: center;
+
+    }
+
+    .social {
+        text-align: center;
+        font-size: large;
+
+    }
 }
+
+/*Media queries for tablet devices*/
+
+@media screen and (max-width: 600px) {
+    .footer {
+        height: 100px;
+        padding-top: 5px;
+
+    }
+
+    footer h2 {
+        text-align: center;
+        font-size: medium;
+
+    }
+
+    .social {
+        text-align: center;
+        font-size: medium;
+    }
+}
+
 /*Recipe page styling*/
 
 #heading {
@@ -641,8 +643,23 @@ ul {
     column-gap: 25px;
 }
 
-#gallery > img {
+#gallery>img {
     width: 100%;
     height: auto;
 }
 
+/* Media queries for gallery*/
+
+@media screen and (max-width: 950px) {
+    
+    #gallery{
+        column-count: 2;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    
+    #gallery{
+        column-count: 1
+    }
+}
