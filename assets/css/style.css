@@ -283,7 +283,7 @@ footer h2 {
 #image {
     float: left;
     width: 33%;
-    margin: 0px, 10px, 20px, 0px;
+    margin: 0px 10px 20px 0px;
 }
 
 #ingerdients,
@@ -365,6 +365,7 @@ ul {
         text-align: center;
         font-size: x-large;
     }
+}
 
     /* Media queries for Mobile screens*/
 
@@ -410,6 +411,7 @@ ul {
             text-align: center;
             font-size: x-large;
         }
+    }
 
         /*About page*/
 
@@ -459,7 +461,7 @@ ul {
                 padding: 0;
             }
 
-
+        }
             /*Media queries for tablet sized screens*/
             @media screen and (max-width: 950px) {
 
@@ -487,10 +489,11 @@ ul {
             /*Media queries for mobile sized screens*/
             @media screen and (max-width: 650px) {
 
-                #logo{
+                #logo {
                     font-size: xx-large;
 
                 }
+
                 #navigation {
                     float: left;
                     clear: left;
@@ -509,4 +512,5 @@ ul {
                     float: left;
                     padding: 0;
                 }
+
             }

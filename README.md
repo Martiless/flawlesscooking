@@ -57,6 +57,7 @@ About:
 * Tested navigation bar to make sure all links worked correctly.
 * Tested "Header" logo to make sure it brought me back to the homepage.
 * Tested enquiry from to make sure all the required elements were working correctly.
+* Tested social media links and email link. 
 
 
 ## Bugs:
