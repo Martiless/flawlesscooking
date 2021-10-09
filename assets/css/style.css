@@ -18,6 +18,11 @@ hr {
     margin: 20px;
     padding-bottom: 200px;
 }
+.page-break-second{
+    margin:20px;
+    padding-bottom: 600px;
+}
+
 /* header */
 
 h2 {
@@ -62,6 +67,7 @@ h2 {
     width: 100%;
     background: url('../images/Cookie-cutter.jpg') no-repeat center center;
     clear: both;
+    object-fit: cover;
     background-color: #29274C;
 }
 
@@ -227,12 +233,14 @@ footer h2 {
 .social {
     text-align: center;
     font-size: x-large;
+    
 }
 
 .social>li {
     text-decoration: none;
     display: inline;
     color: whitesmoke;
+    
 }
 
 /*Recipe page styling*/
@@ -274,7 +282,8 @@ footer h2 {
     margin: 0px, 10px, 20px, 0px;
 }
 
-#ingerdients, ul {
+#ingerdients,
+ul {
     list-style-type: none;
 }
 
@@ -362,4 +371,16 @@ footer h2 {
 #about-me {
     font-size: large;
     float: right;
+    width: 55%;
+    margin: 0 0 20px 0;
+    display: block;
+    line-height: 30px;
 }
+
+#left-side-section {
+    float:left;
+    width:40%;
+    margin: 0 0 20px 0;
+    display: block;
+}
+
