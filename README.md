@@ -60,6 +60,7 @@ About:
 * Tested social media links and email link. 
 
 
+
 ## Bugs:
 1. Font Awesome fonts are copied into the code but when the webiste is loaded are not showing up. 
       1. I had forgotten to add the Font Awesome source code to the footer section of each page.
@@ -70,6 +71,11 @@ About:
 1. Image and text in "Middle" would not wrap for me. 
       1. I tried a number of things including rewriting the code, troubleshooting to see if I had used the wrong code in the first place and eventually contacted the Code Institute tutors to see if I could get a better understanding as to why this was not working for me the way I wanted it to. 
       1. After speaking with a tutor I was able to see that I had to take a closer look at my margins and padding to allow both the image and text fit side my side in the designated area.
+1. About page would not load correctly after adding the media queries to the pagea.
+      1. Used Google Dev Tools to try and fix the code. The code was in GitPod but not appearing in Dev tools
+      1. Tried hard refreshes
+      1. Tried rewritting the code
+      1. Finally contacted the Code Institute tutors who helped me see that I was missing some closing brackets from previous media queries that was causing the code from the About page to be overwritten. Once these bracets were closed the page loaded correctly.
 
 ## Valitation:
 
