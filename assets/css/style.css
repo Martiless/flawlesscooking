@@ -362,6 +362,7 @@ footer h2 {
         margin: 0px;
 
     }
+}
 
     /*Recipe page styling*/
 
@@ -436,9 +437,10 @@ footer h2 {
 
         #brownie {
             clear: both;
-            width: 70%;
+            width: 600px;
+            height: 500px;
             padding: 0;
-            margin: 5px 80px;
+            margin: 5px 130px;
         }
 
     }
@@ -472,9 +474,10 @@ footer h2 {
 
         #brownie {
             clear: both;
-            width: 80%;
+            width: 500px;
+            height: 400px;
             padding: 0;
-            margin: 5px 30px;
+            margin: 5px 50px;
         }
 
         .social {
@@ -535,12 +538,12 @@ footer h2 {
         }
 
         #button {
-            width: 300px;
-            height: 150px;
+            width: 200px;
+            height: 80pxx;
             color: whitesmoke;
             margin-top: 150px;
             cursor: pointer;
-            font-size: 20px;
+            font-size: 14px;
             display: initial
         }
     }
@@ -663,9 +666,17 @@ footer h2 {
 
     /* Media queries for gallery*/
 
+    @media screen and (max-width: 1300px) {
+        #gallery {
+            clear: both;
+            column-count: 2;
+        }
+    }
+
     @media screen and (max-width: 950px) {
 
         #gallery {
+            clear: both;
             column-count: 2;
         }
     }
@@ -673,6 +684,7 @@ footer h2 {
     @media screen and (max-width: 650px) {
 
         #gallery {
+            clear: both;
             column-count: 1
         }
     }
