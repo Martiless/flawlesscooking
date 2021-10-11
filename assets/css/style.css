@@ -163,6 +163,13 @@ tr {
 /*Media queries for index.html*/
 
 @media screen and (max-width: 1300px) {
+    #navigation {
+        float: left;
+        clear: left;
+        list-style-type: none;
+        letter-spacing: 1px;
+    }
+
     #middle {
         width: 60%;
         height: 1200px;
@@ -191,8 +198,7 @@ tr {
     #navigation {
         float: left;
         clear: left;
-        list-style-type: none;
-        letter-spacing: 1px;
+        margin-left: 0px;
     }
 
     .main-image {
@@ -223,14 +229,14 @@ tr {
 
 /* media queries for mobile*/
 
-@media screen and (max-width:600px) {
-
-
+@media screen and (max-width:650px) {
+   
     #navigation {
         float: left;
         clear: left;
         list-style-type: none;
         letter-spacing: 1px;
+        line-height: 1px;
     }
 
     .main-image {
@@ -336,6 +342,7 @@ footer h2 {
 
     footer h2 {
         text-align: center;
+        margin: auto;
 
 
     }
@@ -349,7 +356,7 @@ footer h2 {
 
 /*Media queries for mobile devices*/
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
     .footer {
         height: 100px;
         padding-top: 5px;
@@ -364,327 +371,342 @@ footer h2 {
     }
 }
 
-    /*Recipe page styling*/
+/*Recipe page styling*/
 
-    #heading {
-        margin-top: 50px;
-        font-family: Italianno, sans-serif;
-        font-size: xxx-large;
-        letter-spacing: 3px;
-        color: #7E52A0;
+#heading {
+    margin-top: 50px;
+    font-family: Italianno, sans-serif;
+    font-size: xxx-large;
+    letter-spacing: 3px;
+    color: #7E52A0;
+}
+
+#brownie {
+    width: 365px;
+    height: 620px;
+    float: left;
+    object-fit: cover;
+    border: 5px solid #012A36;
+}
+
+#method {
+    float: right;
+    width: 32%;
+    margin: 1px;
+}
+
+#ingredients {
+    float: left;
+    width: 32%;
+    margin: 2px;
+    line-height: 40px;
+    text-align: center;
+
+}
+
+#image {
+    float: left;
+    width: 33%;
+    margin: 0px 10px 20px 0px;
+}
+
+#ingerdients,
+ul {
+    list-style-type: none;
+}
+
+#button {
+    background-color: #29274C;
+    width: 300px;
+    height: 150px;
+    color: whitesmoke;
+    margin-top: 150px;
+    cursor: pointer;
+    font-size: 20px;
+    display: initial
+}
+
+/*Media queries for index.html*/
+
+@media screen and (max-width: 1300px) {
+    #image {
+        width: 33%;
+        height: 600px;
+        margin: auto
+    }
+
+    #method,
+    #ingredients {
+        width: 100%;
+        float: right;
+        padding: 0;
     }
 
     #brownie {
-        width: 365px;
-        height: 620px;
-        float: left;
-        object-fit: cover;
-        border: 5px solid #012A36;
+        clear: both;
+        width: 600px;
+        height: 500px;
+        padding: 0;
+        margin: 5px 130px;
     }
 
-    #method {
-        float: right;
-        width: 32%;
-        margin: 1px;
+}
+
+/*Media queries for tablet sized screens*/
+@media screen and (max-width: 950px) {
+
+    #navigation {
+        float: left;
+        clear: left;
+        margin-left: 0px;
     }
 
-    #ingredients {
-        float: left;
-        width: 32%;
-        margin: 2px;
-        line-height: 40px;
-        text-align: center;
-
+    .main-image {
+        width: 100%;
+        height: 300px;
     }
 
     #image {
-        float: left;
         width: 33%;
-        margin: 0px 10px 20px 0px;
+        height: 1200px;
+        margin: auto
     }
 
-    #ingerdients,
-    ul {
+    #method,
+    #ingredients {
+        width: 100%;
+        float: right;
+        padding: 0;
+    }
+
+    #brownie {
+        clear: both;
+        width: 500px;
+        height: 400px;
+        padding: 0;
+        margin: 5px 50px;
+    }
+
+    .social {
+        text-align: center;
+        font-size: x-large;
+    }
+}
+
+/* Media queries for Mobile screens*/
+
+@media screen and (max-width: 650px) {
+
+    #navigation {
+        float: left;
+        clear: left;
         list-style-type: none;
+        letter-spacing: 1px;
+        line-height: 1px;
+    }
+
+    .main-image {
+        display: none;
+    }
+
+    #heading {
+        font-size: x-large;
+        letter-spacing: 1px;
+    }
+
+    #image {
+        width: 33%;
+        height: 5px;
+        margin: auto
+    }
+
+    #ingredients {
+        width: 100%;
+        float: right;
+        padding: 0;
+        margin-top: 250px;
+    }
+
+    #method {
+        width: 100%;
+        float: right;
+        padding: 0;
+    }
+
+    #brownie {
+        clear: both;
+        width: 250px;
+        height: 250px;
+        padding: 0;
+        margin: 5px 8px;
+    }
+
+    .social {
+        text-align: center;
+        font-size: x-large;
     }
 
     #button {
-        background-color: #29274C;
-        width: 300px;
-        height: 150px;
+        width: 200px;
+        height: 80pxx;
         color: whitesmoke;
         margin-top: 150px;
         cursor: pointer;
-        font-size: 20px;
+        font-size: 14px;
         display: initial
     }
+}
 
-    /*Media queries for index.html*/
+/*About page*/
 
-    @media screen and (max-width: 1300px) {
-        #image {
-            width: 33%;
-            height: 600px;
-            margin: auto
-        }
+#teacher {
+    width: 500px;
+    height: 500px;
+    float: left;
+    object-fit: cover;
+    border: 5px solid #012A36;
+}
 
-        #method,
-        #ingredients {
-            width: 100%;
-            float: right;
-            padding: 0;
-        }
+#about-me {
+    font-size: large;
+    float: right;
+    width: 55%;
+    margin: 0 0 20px 0;
+    display: block;
+    line-height: 30px;
+}
 
-        #brownie {
-            clear: both;
-            width: 600px;
-            height: 500px;
-            padding: 0;
-            margin: 5px 130px;
-        }
+#left-side-section {
+    float: left;
+    width: 40%;
+    margin: 0 0 20px 0;
+    display: block;
+}
 
+/* Media queries for about.html*/
+
+@media screen and (max-width: 1300px) {
+
+    #navigation {
+        float: left;
+        list-style-type: none;
+        letter-spacing: 1px;
     }
-
-    /*Media queries for tablet sized screens*/
-    @media screen and (max-width: 950px) {
-
-        #navigation {
-            float: left;
-            list-style-type: none;
-            letter-spacing: 1px;
-        }
-
-        .main-image {
-            width: 100%;
-            height: 300px;
-        }
-
-        #image {
-            width: 33%;
-            height: 1200px;
-            margin: auto
-        }
-
-        #method,
-        #ingredients {
-            width: 100%;
-            float: right;
-            padding: 0;
-        }
-
-        #brownie {
-            clear: both;
-            width: 500px;
-            height: 400px;
-            padding: 0;
-            margin: 5px 50px;
-        }
-
-        .social {
-            text-align: center;
-            font-size: x-large;
-        }
-    }
-
-    /* Media queries for Mobile screens*/
-
-    @media screen and (max-width: 600px) {
-
-        #navigation {
-            float: left;
-            list-style-type: none;
-            letter-spacing: 1px;
-        }
-
-        .main-image {
-            display: none;
-        }
-
-        #heading {
-            font-size: x-large;
-            letter-spacing: 1px;
-        }
-
-        #image {
-            width: 33%;
-            height: 5px;
-            margin: auto
-        }
-
-        #ingredients {
-            width: 100%;
-            float: right;
-            padding: 0;
-            margin-top: 250px;
-        }
-
-        #method {
-            width: 100%;
-            float: right;
-            padding: 0;
-        }
-
-        #brownie {
-            clear: both;
-            width: 250px;
-            height: 250px;
-            padding: 0;
-            margin: 5px 8px;
-        }
-
-        .social {
-            text-align: center;
-            font-size: x-large;
-        }
-
-        #button {
-            width: 200px;
-            height: 80pxx;
-            color: whitesmoke;
-            margin-top: 150px;
-            cursor: pointer;
-            font-size: 14px;
-            display: initial
-        }
-    }
-
-    /*About page*/
 
     #teacher {
         width: 500px;
         height: 500px;
-        float: left;
-        object-fit: cover;
-        border: 5px solid #012A36;
+        margin: auto
     }
 
     #about-me {
-        font-size: large;
-        float: right;
-        width: 55%;
-        margin: 0 0 20px 0;
-        display: block;
-        line-height: 30px;
-    }
-
-    #left-side-section {
+        width: 100%;
         float: left;
-        width: 40%;
-        margin: 0 0 20px 0;
-        display: block;
+        padding: 0;
     }
 
-    /* Media queries for about.html*/
+}
 
-    @media screen and (max-width: 1300px) {
+/*Media queries for tablet sized screens*/
+@media screen and (max-width: 950px) {
 
-        #navigation {
-            float: left;
-            list-style-type: none;
-            letter-spacing: 1px;
-        }
-
-        #teacher {
-            width: 500px;
-            height: 500px;
-            margin: auto
-        }
-
-        #about-me {
-            width: 100%;
-            float: left;
-            padding: 0;
-        }
-
+    #navigation {
+        float: left;
+        clear: left;
+        margin-left: 0px;
     }
 
-    /*Media queries for tablet sized screens*/
-    @media screen and (max-width: 950px) {
+    #teacher {
+        width: 500px;
+        height: 500px;
+        margin: auto
+    }
 
-        #navigation {
-            float: left;
-            clear: left;
-            list-style-type: none;
-            letter-spacing: 1px;
-        }
+    #about-me {
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
 
-        #teacher {
-            width: 500px;
-            height: 500px;
-            margin: auto
-        }
+}
 
-        #about-me {
-            width: 100%;
-            float: left;
-            padding: 0;
-        }
+/*Media queries for mobile sized screens*/
+@media screen and (max-width: 650px) {
+
+    #logo {
+        font-size: xx-large;
 
     }
 
-    /*Media queries for mobile sized screens*/
-    @media screen and (max-width: 650px) {
-
-        #logo {
-            font-size: xx-large;
-
-        }
-
-        #navigation {
-            float: left;
-            clear: left;
-            list-style-type: none;
-            letter-spacing: 1px;
-        }
-
-        #teacher {
-            width: 250px;
-            height: 250px;
-            margin-left: -23px;
-        }
-
-        #about-me {
-            width: 100%;
-            float: left;
-            padding: 0;
-        }
-
+    #navigation {
+        float: left;
+        clear: left;
+        list-style-type: none;
+        letter-spacing: 1px;
+        line-height: 1px;
+    }
+    #teacher {
+        width: 250px;
+        height: 250px;
+        margin-left: -23px;
     }
 
-    /* Gallery */
+    #about-me {
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+}
+
+/* Gallery */
+
+#gallery {
+    line-height: 0;
+    column-count: 3;
+    column-gap: 25px;
+}
+
+#gallery>img {
+    width: 100%;
+    height: auto;
+}
+
+/* Media queries for gallery*/
+
+@media screen and (max-width: 1300px) {
+    #gallery {
+        clear: both;
+        column-count: 2;
+    }
+}
+
+@media screen and (max-width: 950px) {
+
+    #navigation {
+        float: left;
+        clear: left;
+        margin-left: 0px;
+    }
 
     #gallery {
-        line-height: 0;
-        column-count: 3;
-        column-gap: 25px;
+        clear: both;
+        column-count: 2;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    
+    #navigation {
+        float: left;
+        clear: left;
+        list-style-type: none;
+        letter-spacing: 1px;
+        line-height: 1px;
     }
 
-    #gallery>img {
-        width: 100%;
-        height: auto;
+    #gallery {
+        clear: both;
+        column-count: 1
     }
-
-    /* Media queries for gallery*/
-
-    @media screen and (max-width: 1300px) {
-        #gallery {
-            clear: both;
-            column-count: 2;
-        }
-    }
-
-    @media screen and (max-width: 950px) {
-
-        #gallery {
-            clear: both;
-            column-count: 2;
-        }
-    }
-
-    @media screen and (max-width: 650px) {
-
-        #gallery {
-            clear: both;
-            column-count: 1
-        }
-    }
+}
