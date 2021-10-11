@@ -432,15 +432,14 @@ ul {
 
     }
 
-    .main-image {
-        width: 100%;
-        height: 300px;
-    }
-
     #image {
-        width: 33%;
-        height: 1200px;
-        margin: auto
+        float: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 80vw;
+        margin: auto;
     }
 
     #method,
@@ -544,13 +543,10 @@ ul {
 
     footer h2 {
         text-align: center;
-        font-size: medium;
+        font-size: x-large;
         margin: 0px;
+        position: absolute;
 
-    }
-
-    .main-image {
-        display: none;
     }
 
     #heading {
@@ -561,20 +557,22 @@ ul {
     #image {
         width: 33%;
         height: 5px;
-        margin: auto
+        margin: 1px;
     }
 
     #ingredients {
         width: 100%;
         float: right;
         padding: 0;
-        margin-top: 250px;
+        margin-top: 50px;
+        font-size: medium;
     }
 
     #method {
         width: 100%;
         float: right;
         padding: 0;
+        font-size: medium;
     }
 
     #brownie {
@@ -592,12 +590,10 @@ ul {
 
     #button {
         width: 200px;
-        height: 80pxx;
+        height: 80px;
         color: whitesmoke;
-        margin-top: 150px;
+        margin-top: 60px;
         cursor: pointer;
-        font-size: 14px;
-        display: initial
     }
 
     #logo {
