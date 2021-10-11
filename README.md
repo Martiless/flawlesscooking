@@ -76,6 +76,11 @@ About:
       1. Tried hard refreshes
       1. Tried rewritting the code
       1. Finally contacted the Code Institute tutors who helped me see that I was missing some closing brackets from previous media queries that was causing the code from the About page to be overwritten. Once these bracets were closed the page loaded correctly.
+1. When I was making my site responsive one of my pages started to load wrong, i.e the footer was above the middle section of the page. 
+      1. 
+1. Navigation bar was not responding correctly when viewed in tablet form. 
+      1. Used Google Dev Tools to try differnt methods of getting the page to work.
+      1. Eventually discoverd that the margin wasn't set correctly as it was still set to the default margins.
 
 ## Valitation:
 
