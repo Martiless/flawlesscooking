@@ -100,9 +100,16 @@ h2 {
 .right-side {
     float: right;
     width: 60%;
-    margin: 0 0 20px 0;
+    margin: 20px 0 20px 0;
     display: block;
 }
+
+.right-side h3 {
+    font-family: "Amatic SC", sans-serif;
+    font-size: xx-large;
+    letter-spacing: 3px;
+    color: whitesmoke
+    }
 
 .left-side {
     float: left;
@@ -227,7 +234,7 @@ footer h2 {
 
 #heading {
     margin-top: 50px;
-    font-family: Italianno, sans-serif;
+    font-family: "Italianno", sans-serif;
     font-size: xxx-large;
     letter-spacing: 3px;
     color: #7E52A0;
@@ -278,15 +285,10 @@ ul {
 }
 
 
-#video {
-    width: 50%;
-    /*float:right;*/
-}
-
 /*About page*/
 
 .h3 {
-    font-family: Amatic SC, sans-serif;
+    font-family: "Amatic SC", sans-serif;
     font-size: xxx-large;
     letter-spacing: 3px;
     color: #7E52A0;
@@ -306,7 +308,7 @@ ul {
     font-size: large;
     float: right;
     width: 55%;
-    margin: 0 0 20px 0;
+    margin: 0 20px 20px 0;
     display: block;
     line-height: 30px;
 }
@@ -340,6 +342,10 @@ ul {
     color: whitesmoke;
     font-size: large;
     font-family: Roboto, sans-serif;
+}
+
+.link {
+    color: #F59F00;
 }
 
 /* Gallery */
