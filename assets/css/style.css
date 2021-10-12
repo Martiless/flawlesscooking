@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Italianno&family=Roboto&display=swap');
 
 * {
-    margin: 20px;
+    margin: 7px;
     padding: 0;
     border: none;
 }
@@ -36,6 +36,11 @@ h2 {
 #logo {
     text-decoration: none;
     float: left;
+
+}
+
+#logo a {
+    text-decoration: none;
 }
 
 /* Navigation bar */
@@ -45,6 +50,7 @@ h2 {
     list-style-type: none;
     letter-spacing: 3px;
     color: #7E52A0;
+    padding-top: 10px;
 }
 
 #navigation a {
@@ -76,10 +82,11 @@ h2 {
 /* Class Time section*/
 
 #middle {
-    background-color: #012A36;
+    background-color: #7E52A0;
     color: whitesmoke;
     height: 550px;
-    width: 100%;
+    width: 80%;
+    margin: auto;
 }
 
 .right-side {
@@ -114,7 +121,7 @@ tr {
     height: 500px;
     float: left;
     object-fit: cover;
-    border: 5px solid #012A36;
+    border: 5px solid #7E52A0;
 }
 
 
@@ -126,9 +133,9 @@ tr {
 }
 
 .enquiry-form {
-    border: 1px solid #012A36;
+    border: 1px solid #BBA4CD;
     color: rgb(54, 53, 53);
-    background-color: rgba(41, 39, 76, 0.5);
+    background-color: rgba(187, 164, 205, 0.5);
     max-width: 500px;
     padding: 5px 10px;
     display: inline-block;
@@ -141,17 +148,20 @@ tr {
     width: 100%;
     height: 20px;
     margin: 10px 0 30px 0;
+    padding: 5px;
+    resize: none;
 }
 
 
 
 #submit-button {
     border-radius: 2px;
-    background-color: #012A36;
+    background-color: #F59F00;
     color: white;
     text-align: center;
     padding: 15px 30px;
     font-size: medium;
+    cursor: pointer;
 }
 
 #submit-button:hover {
@@ -163,6 +173,7 @@ tr {
 /*Footer*/
 
 footer {
+    margin-top: 30px;
     height: 200px;
     padding-top: 5px;
 
@@ -184,6 +195,26 @@ footer h2 {
     display: inline;
     color: whitesmoke;
 
+}
+
+.fab {
+    color: #F59F00;
+    font-size: xx-large;
+}
+
+.fab:hover {
+    color: #7E52A0;
+    cursor: pointer;
+}
+
+#fas {
+    color: #F59F00;
+    font-size: xx-large;
+}
+
+#fas:hover {
+    color: #7E52A0;
+    cursor: pointer;
 }
 
 /*Recipe page styling*/
@@ -558,6 +589,7 @@ ul {
         width: 33%;
         height: 5px;
         margin: 1px;
+        display: block;
     }
 
     #ingredients {
