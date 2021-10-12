@@ -11,9 +11,12 @@ body {
 }
 
 header {
-    position:fixed;
+    position: fixed;
     background-color: white;
+    width: 100%;
+    margin: auto;
 }
+
 hr {
     border: 5px solid #012A36;
 }
@@ -177,7 +180,7 @@ tr {
 /*Footer*/
 
 footer {
-    margin-top: 30px;
+    margin-top: 50px;
     height: 200px;
     padding-top: 5px;
 
@@ -232,8 +235,8 @@ footer h2 {
 }
 
 #brownie {
-    width: 365px;
-    height: 620px;
+    width: 500px;
+    height: 550px;
     float: left;
     object-fit: cover;
     border: 5px solid #012A36;
@@ -267,13 +270,17 @@ ul {
 
 #button {
     background-color: #29274C;
-    width: 300px;
-    height: 150px;
+    width: 40%;
     color: whitesmoke;
-    margin-top: 150px;
     cursor: pointer;
     font-size: 20px;
-    display: initial
+    display: inline;
+    float:left;
+}
+
+#video {
+    width: 50%;
+    /*float:right;*/
 }
 
 /*About page*/
@@ -520,21 +527,25 @@ ul {
 
 @media screen and (max-width:650px) {
 
+    header {
+        top: 0;
+    }
+
     #navigation {
         float: left;
         clear: left;
         line-height: 1px;
-        font-size: small;
+        font-size: x-small;
     }
 
     .main-image {
-        display:none;
+        display: none;
     }
 
     #middle {
         width: 100%;
         height: 850px;
-        margin-top: 50px;
+        margin-top: 180px;
     }
 
     .left-side,
