@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Italianno&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 
 * {
     margin: 7px;
@@ -282,6 +283,15 @@ ul {
 
 /*About page*/
 
+.h3 {
+    font-family: Great Vibes, sans-serif;
+    font-size: xxx-large;
+    letter-spacing: 3px;
+    color: #7E52A0;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
 #teacher {
     width: 500px;
     height: 500px;
@@ -304,6 +314,30 @@ ul {
     width: 40%;
     margin: 0 0 20px 0;
     display: block;
+}
+
+#experience {
+    width: 100%;
+    overflow: hidden;
+}
+
+#experience div {
+    color: #fafafa;
+    background-color:#7E52A0;
+    width: 45%;
+    height: 250px;
+    float: left;
+    padding: 30px 0 0 10px;
+    text-align: center;
+    border: 25px solid white;
+    line-height: 25px;
+    
+}
+
+#experince, h3 {
+    color: whitesmoke;
+    font-size: large;
+    font-family: Roboto, sans-serif;
 }
 
 /* Gallery */
@@ -399,19 +433,7 @@ ul {
         padding: 0;
 
     }
-
-    #teacher {
-        width: 500px;
-        height: 500px;
-        margin: auto
-    }
-
-    #about-me {
-        width: 100%;
-        float: left;
-        padding: 0;
-    }
-
+        
     #gallery {
         clear: both;
         column-count: 2;
@@ -512,6 +534,13 @@ ul {
         width: 100%;
         float: left;
         padding: 0;
+    }
+
+    #experience > div {
+        width: auto;
+        height: 210px;
+        padding: 0;
+        float:none;
     }
 
     #gallery {
