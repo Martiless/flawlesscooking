@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Italianno&family=Roboto&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
 
 * {
     margin: 7px;
@@ -284,12 +284,12 @@ ul {
 /*About page*/
 
 .h3 {
-    font-family: Great Vibes, sans-serif;
+    font-family: Amatic SC, sans-serif;
     font-size: xxx-large;
     letter-spacing: 3px;
     color: #7E52A0;
     text-align: center;
-    margin-bottom: 35px;
+    margin: 35px 0px;
 }
 
 #teacher {
