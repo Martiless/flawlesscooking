@@ -109,7 +109,7 @@ h2 {
     font-size: xx-large;
     letter-spacing: 3px;
     color: whitesmoke
-    }
+}
 
 .left-side {
     float: left;
@@ -132,7 +132,7 @@ tr {
 }
 
 #kids-cooking {
-    width: 500px;
+    width: 450px;
     height: 500px;
     float: left;
     object-fit: cover;
@@ -160,7 +160,7 @@ tr {
 .input {
     background-color: white;
     border: 1px solid #012A36;
-    width:90%;
+    width: 90%;
     height: 20px;
     margin: 10px 0 30px 0;
     padding: 5px;
@@ -274,14 +274,17 @@ ul {
     list-style-type: none;
 }
 
-#button {
+.button {
     background-color: #29274C;
     width: 300px;
-    height: 150px;
+    height: 50px;
     color: whitesmoke;
     cursor: pointer;
     font-size: 20px;
     margin: 0px;
+    padding-top: 16px;
+    padding-left: 18px;
+    display: inline-block;
 }
 
 
@@ -327,7 +330,7 @@ ul {
 
 #experience div {
     color: #fafafa;
-    background-color:#7E52A0;
+    background-color: #7E52A0;
     width: 45%;
     height: 250px;
     float: left;
@@ -335,10 +338,11 @@ ul {
     text-align: center;
     border: 25px solid white;
     line-height: 25px;
-    
+
 }
 
-#experince, h3 {
+#experince,
+h3 {
     color: whitesmoke;
     font-size: large;
     font-family: Roboto, sans-serif;
@@ -429,6 +433,24 @@ ul {
         margin: 5px 130px;
     }
 
+    .button {
+        background-color: #29274C;
+        width: 300px;
+        height: 50px;
+        color: whitesmoke;
+        cursor: pointer;
+        font-size: 20px;
+        margin: 0px;
+        padding-top: 16px;
+        padding-left: 18px;
+        display: inline-block;
+    }
+
+    .iframe {
+        width: 100%;
+        height: auto;
+    }
+
     #teacher {
         width: 500px;
         height: 500px;
@@ -441,7 +463,7 @@ ul {
         padding: 0;
 
     }
-        
+
     #gallery {
         clear: both;
         column-count: 2;
@@ -527,13 +549,37 @@ ul {
         margin: 5px 50px;
     }
 
-    #iframe {
-        width: 100%;
+    .button {
+        background-color: #29274C;
+        width: 300px;
+        height: 50px;
+        color: whitesmoke;
+        cursor: pointer;
+        font-size: 20px;
+        margin: 0px;
+        padding-top: 16px;
+        padding-left: 18px;
+        display: inline-block;
+    }
+
+
+    .iframe {
+        width: auto;
         height: auto;
     }
+
     .social {
         text-align: center;
         font-size: x-large;
+    }
+
+    .h3 {
+        font-family: "Amatic SC", sans-serif;
+        font-size: x-large;
+        letter-spacing: 3px;
+        color: #7E52A0;
+        text-align: center;
+        margin: 35px 0px;
     }
 
     #teacher {
@@ -548,11 +594,11 @@ ul {
         padding: 0;
     }
 
-    #experience > div {
+    #experience>div {
         width: auto;
         height: 210px;
         padding: 0;
-        float:none;
+        float: none;
     }
 
     #gallery {
@@ -656,16 +702,32 @@ ul {
         padding: 0;
         margin: 5px 8px;
     }
-#iframe {
-    width: 100%;
-    height: auto;
-}
+
+    .button {
+        background-color: #29274C;
+        width: 300px;
+        height: 50px;
+        color: whitesmoke;
+        cursor: pointer;
+        font-size: 20px;
+        margin: 0px;
+        padding-top: 16px;
+        padding-left: 18px;
+        display: inline-block;
+    }
+
+
+    .iframe {
+        width: 100%;
+        height: auto;
+    }
+
     .social {
         text-align: center;
         font-size: x-large;
     }
 
-    #button {
+    .button {
         width: 200px;
         height: 80px;
         color: whitesmoke;
@@ -673,15 +735,24 @@ ul {
         cursor: pointer;
     }
 
+
     #logo {
         font-size: xx-large;
 
     }
 
+    .h3 {
+        font-family: "Amatic SC", sans-serif;
+        font-size: large;
+        letter-spacing: 3px;
+        color: #7E52A0;
+        text-align: center;
+        margin: 140px 0px 10px;
+    }
+
     #teacher {
         width: 250px;
         height: 250px;
-        margin-left: -23px;
     }
 
     #about-me {
