@@ -100,6 +100,21 @@ The wireframe was created using Balsamic and consists of 3 pages, Home, Recipe a
 
 ## Valitation:
 
+### **Index.html:**
+No errors found 
+
+### **About.html:**
+No errors found
+
+### **Recipe.html:**
+No errors found
+
+### **Gallery.html:**
+No errors found
+
+### **Style.css:**
+No errors found
+
 ## Accessibility:
 ![LightHouse Report](assets/readme-images/lighthouse-score.png)
 
