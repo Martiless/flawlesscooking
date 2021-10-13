@@ -81,8 +81,8 @@ About:
       1. Tried hard refreshes
       1. Tried rewritting the code
       1. Finally contacted the Code Institute tutors who helped me see that I was missing some closing brackets from previous media queries that was causing the code from the About page to be overwritten. Once these bracets were closed the page loaded correctly.
-1. When I was making my site responsive one of my pages started to load wrong, i.e the footer was above the middle section of the page. 
-      1. 
+1. When I was making my site responsive pages recipe page started to load wrong, i.e the footer was above the middle section of the page. 
+      1. I was having a really hard time with this one as I had double and triple checked all my code in GitPod and also used Google Dev tools and couldn't see any problem. I eventually decided to used the Tutor service where one of the tutors explained to me about flex and flex-box as a way of displaying content instead of floats. By changing the images css from a float to a flex corrected the issue I was having.
 1. Navigation bar was not responding correctly when viewed in tablet form. 
       1. Used Google Dev Tools to try differnt methods of getting the page to work.
       1. Eventually discoverd that the margin wasn't set correctly as it was still set to the default margins.
@@ -90,17 +90,20 @@ About:
 ## Valitation:
 
 ## Accessibilty:
+![LightHouse Report](assets/readme-images-lighthouse-score.png)
 
 ## Deployment:
 
 ## Credits:
+
 ### Content:
 
 1. The icons used throughout website were taken from [FontAwesome](https://fontawesome.com/)  
-1. The header font was taken from [GoogleFonts](https://fonts.google.com/)
+1. The logo and heading fonts were taken from [GoogleFonts](https://fonts.google.com/)
 1. Instructions on who to crop an image was taken from [DigitalOcean](https://www.digitalocean.com/)
 
 ### Media:
 
 1. Images for this site were downloaded from [Pexel](https://www.pexels.com/)
+1. Video on how to make a flaxseed egg taken from [YouTube](https://www.youtube.com/watch?v=ouUW810R5to)
 
