@@ -4,24 +4,28 @@ This is a website for kids cookery classes based in Cork. Complete with enquiry 
 This website has been created as the first Milestone project for Code Institute's Full Stack Software Development Diploma. 
 
 ## Table of content: 
- 1. Site Goals
-    1. User Goals
-    1. Owner Goals
- 1. Features 
-      1. General 
-      1. Home page
-      1. About Me 
-      1. Recipes 
-      1. Gallery
- 1. Wireframe 
- 1. Testing
- 1. Bugs
- 1. Valitation
- 1. Accessibilty
- 1. Deployment
- 1. Credits
-      1. Content
-      1. Media
+ 1. [Site Goals](#Site-Goals)
+    1. [User Goals](#User-Goals)
+    1. [Owner Goals](#Owner-Goals)
+ 1. [UX](#UX)
+      1. [Color Contrast](#Color-Contrast)
+      1. [Font](#Font)
+      1. [Images](#Images)
+ 1. [Features](#Features)
+      1. [General](#General)
+      1. [Home page](#Home-page)
+      1. [About](#About)
+      1. [Recipes](#Recipes)
+      1. [Gallery](#Gallery)
+ 1. [Wireframe](#Wireframe) 
+ 1. [Testing](#Testing)
+ 1. [Bugs](#Bugs)
+ 1. [Validation](#Validation)
+ 1. [Accessibilty](#Accessibilty)
+ 1. [Deployment](#Deployment)
+ 1. [Credits](#Credits)
+      1. [Content](#Content)
+      1. [Media](#Media)
   
 
 ## Site Goals:
@@ -49,21 +53,21 @@ The goals for this site is as follows:
 ## Wireframe:
 The wireframe was created using Balsamic and consists of 3 pages, Home, Recipe and About.
 
-Home page:
+#### Home page:
 
 ![Home Page](https://user-images.githubusercontent.com/81761397/136006518-960bf764-d74f-4742-8afb-b4c06b9746c5.png)
 
-Recipes:
+#### Recipes:
 
 ![Recipes Page](https://user-images.githubusercontent.com/81761397/136006678-d10c5a57-75c8-43f0-a0a8-f4459fff6f5e.png)
 
-About:
+#### About:
 
 ![About Page](https://user-images.githubusercontent.com/81761397/136015563-6cc1cebc-6b6b-4aca-ab49-1b04704b44a8.png)
 
 ## Testing:
 
-* Tested navigation bar to make sure all links worked correctly.
+* Tested navigation bar to make sure all links worked correctly. 
 * Tested "Header" logo to make sure it brought me back to the homepage.
 * Tested enquiry from to make sure all the required elements were working correctly.
 * Tested social media links and email link. 
@@ -90,10 +94,13 @@ About:
 1. Navigation bar was not responding correctly when viewed in tablet form. 
       1. Used Google Dev Tools to try differnt methods of getting the page to work.
       1. Eventually discoverd that the margin wasn't set correctly as it was still set to the default margins.
+1. While generating the LightHouse Report I was getting an error due to some code that was appearing at the end of each of my .html files, but that I had not written nor was it appearing in GitPod
+      1. I went through all my extension I have installed on Google Chrome and discovered that an app was inserting code into the site while in the preview 8000 mode.
+      1. I disabled the app and ran the Lighthouse report again which came back without the same feedback. 
 
 ## Valitation:
 
-## Accessibilty:
+## Accessibility:
 ![LightHouse Report](assets/readme-images/lighthouse-score.png)
 
 ## Deployment:
