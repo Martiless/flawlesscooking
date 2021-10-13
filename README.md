@@ -1,6 +1,6 @@
 # Flawless Cooking Kids Cookery School 
 
-This is a website for kids cookery classes based in Cork. Complete with enquiry form, downloadable sample recipe and an about section. Flawless Cooking is a fictional cookery school, however, it is an actual cookery blog that I own. 
+This is a website for kids cookery classes based in Cork. Complete with enquiry form, downloadable sample recipe and an about section. Flawless Cooking is a fictional cookery school designed for this project. 
 This website has been created as the first Milestone project for Code Institute's Full Stack Software Development Diploma. 
 
 ## Table of content: 
@@ -8,6 +8,7 @@ This website has been created as the first Milestone project for Code Institute'
     1. User Goals
     1. Owner Goals
  1. Features 
+      1. General 
       1. Home page
       1. About Me 
       1. Recipes 
@@ -49,13 +50,16 @@ The goals for this site is as follows:
 The wireframe was created using Balsamic and consists of 3 pages, Home, Recipe and About.
 
 Home page:
-![image](https://user-images.githubusercontent.com/81761397/136006518-960bf764-d74f-4742-8afb-b4c06b9746c5.png)
 
-Recipe:
-![image](https://user-images.githubusercontent.com/81761397/136006678-d10c5a57-75c8-43f0-a0a8-f4459fff6f5e.png)
+![Home Page](https://user-images.githubusercontent.com/81761397/136006518-960bf764-d74f-4742-8afb-b4c06b9746c5.png)
 
-About: 
-![image](https://user-images.githubusercontent.com/81761397/136015563-6cc1cebc-6b6b-4aca-ab49-1b04704b44a8.png)
+Recipes:
+
+![Recipes Page](https://user-images.githubusercontent.com/81761397/136006678-d10c5a57-75c8-43f0-a0a8-f4459fff6f5e.png)
+
+About:
+
+![About Page](https://user-images.githubusercontent.com/81761397/136015563-6cc1cebc-6b6b-4aca-ab49-1b04704b44a8.png)
 
 ## Testing:
 
@@ -90,7 +94,7 @@ About:
 ## Valitation:
 
 ## Accessibilty:
-![LightHouse Report](assets/readme-images-lighthouse-score.png)
+![LightHouse Report](assets/readme-images/lighthouse-score.png)
 
 ## Deployment:
 
@@ -98,9 +102,9 @@ About:
 
 ### Content:
 
-1. The icons used throughout website were taken from [FontAwesome](https://fontawesome.com/)  
-1. The logo and heading fonts were taken from [GoogleFonts](https://fonts.google.com/)
-1. Instructions on who to crop an image was taken from [DigitalOcean](https://www.digitalocean.com/)
+1. The icons used throughout website were taken from [Font Awesome](https://fontawesome.com/)  
+1. The logo and heading fonts were taken from [Google Fonts](https://fonts.google.com/)
+1. Instructions on who to crop an image was taken from [Digital Ocean](https://www.digitalocean.com/)
 
 ### Media:
 
