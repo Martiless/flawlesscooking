@@ -1,14 +1,17 @@
 # Flawless Cooking Kids Cookery School 
 
-This is a website for kids cookery classes based in Cork. Complete with enquiry form, downloadable sample recipe and an about section. Flawless Cooking is a fictional cookery school designed for this project. 
+This website is designed for a fictional cooking school based in Cork, Ireland. Complete with enquiry form, downloadable sample recipe and an about section.
 This website has been created as the first Milestone project for Code Institute's Full Stack Software Development Diploma. 
 
+![Am I Responsive](assets/readme-images/am-i-responsive.png)
+
+### View the live website [here]()
+***
 ## Table of content: 
  1. [Site Goals](#Site-Goals)
-    1. [User Goals](#User-Goals)
-    1. [Owner Goals](#Owner-Goals)
  1. [UX](#UX)
-      1. [Color Contrast](#Color-Contrast)
+      1. [User Goals](#User-Goals)
+      1. [Color](#Color)
       1. [Font](#Font)
       1. [Images](#Images)
  1. [Features](#Features)
@@ -26,17 +29,10 @@ This website has been created as the first Milestone project for Code Institute'
  1. [Credits](#Credits)
       1. [Content](#Content)
       1. [Media](#Media)
+***
   
 
 ## Site Goals:
-
-### User Goals:
-
-This website is designed for a fictional cooking school based in Cork, Ireland. 
-The target aduience are parents of kids aged 6 years to 12 years who are showing an interest in cooking and baking. Including a enquiry form which allows parents to contact the school regarding the classes. 
-There is also a page that includes an easy recipe that parents can try out at home with their kids before committing to the classes. 
-
-### Owners Goals:
 
 The goals for this site is as follows:
 * To provide information to users about kids cookery classes in Cork.
@@ -46,31 +42,35 @@ The goals for this site is as follows:
 * Invite enquires from parents with children interested in cooking.
 * To provide easy to follow recipes that parents can do at home with their kids. 
 
-### UX:
+## UX:
 
+An initial  [wireframe] (WIREFRAME.md "Link to Wireframe)
 
-### Features:
+### User Goals:
 
+The target aduience are parents of kids aged 6 years to 12 years who are showing an interest in cooking and baking. Including a enquiry form which allows parents to contact the school regarding the classes. 
 
-  
-## Wireframe:
-The wireframe was created using Balsamic and consists of 3 pages, Home, Recipe and About.
+### Color: 
 
-#### Home page:
+### Font:
 
-![Home Page](https://user-images.githubusercontent.com/81761397/136006518-960bf764-d74f-4742-8afb-b4c06b9746c5.png)
+### Images:
 
-#### Recipes:
+## Features:
 
-![Recipes Page](https://user-images.githubusercontent.com/81761397/136006678-d10c5a57-75c8-43f0-a0a8-f4459fff6f5e.png)
+### General:
 
-#### About:
+### Home page:
 
-![About Page](https://user-images.githubusercontent.com/81761397/136015563-6cc1cebc-6b6b-4aca-ab49-1b04704b44a8.png)
+### About:
+
+### Recipes:
+
+### Gallery: 
 
 ## Testing:
 
-* Tested navigation bar to make sure all links worked correctly. 
+* Each button on the navigation bar were tested to make sure they br. 
 * Tested "Header" logo to make sure it brought me back to the homepage.
 * Tested enquiry from to make sure all the required elements were working correctly.
 * Tested social media links and email link. 
