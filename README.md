@@ -46,6 +46,9 @@ The goals for this site is as follows:
 * Invite enquires from parents with children interested in cooking.
 * To provide easy to follow recipes that parents can do at home with their kids. 
 
+### UX:
+
+
 ### Features:
 
 
@@ -100,8 +103,10 @@ The wireframe was created using Balsamic and consists of 3 pages, Home, Recipe a
 
 ## Valitation:
 
+See screenshot to W3C validator and Jigsaw CSS validator [here](VALIDATION.md "Link to validation screenshots")
+
 ### **Index.html:**
-No errors found 
+No errors found. 
 
 ### **About.html:**
 No errors found
@@ -127,6 +132,7 @@ No errors found
 1. The icons used throughout website were taken from [Font Awesome](https://fontawesome.com/)  
 1. The logo and heading fonts were taken from [Google Fonts](https://fonts.google.com/)
 1. Instructions on who to crop an image was taken from [Digital Ocean](https://www.digitalocean.com/)
+1. CSS Code for image on recipe page was help with by the tutors from Code Institute  
 
 ### Media:
 
