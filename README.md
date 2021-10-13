@@ -1,6 +1,6 @@
-# Flawless Cooking Kids Cookery School 
+# Flawless Cooking Cookery School 
 
-This website is designed for a fictional cooking school based in Cork, Ireland. Complete with enquiry form, downloadable sample recipe and an about section.
+This website is designed for a fictional cooking school based in Cork, Ireland. It is complete with an enquiry form for potential clients to get in contact with the school, an about section to tell people a little about the teacher and a gallery page which shows images of past students to the school. There is also a recipes page with a sample brownie recipe. This page also cotains a downloadable verison of the recipe and a video on how to make a flaxseed egg for anyone who would like to make a vegan friendly version of the brownie. 
 This website has been created as the first Milestone project for Code Institute's Full Stack Software Development Diploma. 
 
 ![Am I Responsive](assets/readme-images/am-i-responsive.png)
@@ -11,6 +11,8 @@ This website has been created as the first Milestone project for Code Institute'
  1. [Site Goals](#Site-Goals)
  1. [UX](#UX)
       1. [User Goals](#User-Goals)
+            * [Target audience](#Target-audience)
+            * [User Stories](#User-Stories)
       1. [Color](#Color)
       1. [Font](#Font)
       1. [Images](#Images)
@@ -29,6 +31,7 @@ This website has been created as the first Milestone project for Code Institute'
  1. [Credits](#Credits)
       1. [Content](#Content)
       1. [Media](#Media)
+      1. [Code](#Code)
 ***
   
 
@@ -44,17 +47,40 @@ The goals for this site is as follows:
 
 ## UX:
 
-An initial  [wireframe] (WIREFRAME.md "Link to Wireframe)
+An initial [Wireframe](WIREFRAME.md "Link to Wireframe screenshots") was created using [Balsamiq](https://balsamiq.com/)  
+This inital drawing had 3 pages *Home, About and Recipe* but since then has become a 4 page site with a gallery page showing examples of previous children who have been taught at the school. 
 
-### User Goals:
 
-The target aduience are parents of kids aged 6 years to 12 years who are showing an interest in cooking and baking. Including a enquiry form which allows parents to contact the school regarding the classes. 
+## User Goals:
+
+ ### Target Audience:
+
+* Parents of children aged 6 - 12 years
+* Grandparents and guardians of children aged 6 - 12 years
+
+### User stories:
+#### New User:  
+* As a new user I am looking to find information regarding cooking classes for kids.  
+* As a new user, I am looking to contact the school.  
+* As a new user, I would like to find out more about the person who will be teaching my child.  
+* As a new user, I would like to see pictures of past students of the school.  
+* As a new user, I would like to get an idea of the types of recipes my child will be learning.  
+
+#### Returning User:
+* As a returning user, I would like to find out if there are any new recipes available to download.
+* As a returning user, I would like to see if there are any new class times added.
+* As a returning user, I would like to see if any new class photos have been added.
 
 ### Color: 
+In order to create a visually appealing website but also an 
 
 ### Font:
 
 ### Images:
+
+***
+[Back to top](#Flawless-Cooking-Cookery-School)  
+  
 
 ## Features:
 
@@ -67,15 +93,42 @@ The target aduience are parents of kids aged 6 years to 12 years who are showing
 ### Recipes:
 
 ### Gallery: 
+***
+[Back to top](#Flawless-Cooking-Cookery-School)  
 
 ## Testing:
 
-* Each button on the navigation bar were tested to make sure they br. 
-* Tested "Header" logo to make sure it brought me back to the homepage.
-* Tested enquiry from to make sure all the required elements were working correctly.
-* Tested social media links and email link. 
+### Home page:
 
+* Each button on the navigation bar were tested to make sure they brought you to the correct place.  
+* The logo in the header was tested to make sure you return to the home page when it is clicked on.  
+* Each social media icon in the footer was tested to make sure they not only opened in the correct social media pages but that they also opened in a new tab.
+* The email icon in the footer was tested to make sure it opened correctly
+* Each field of the enquiry form was tested to make sure if it was empty a warning popped up to let the user know the field was required and that the submit button worked correctly
+      * The submit button currently refresh the homepage when clicked.  
 
+### About page:
+* Header and footer as above.  
+* Links in the experience section were tested to make sure they both brought you to the right websites but also opened in new tabs.
+
+### Receipes page: 
+* Header and footer as above.  
+* Link in the ingredients was tested to make sure it directs users to the video at the bottom of the page.
+* Download button was tested to make sure it opened a downloadable PDF in a new tab for users.
+* Video was tested to make sure it played.
+
+### Gallery page:
+* Header and footer as above.
+
+### Responsiveness:
+All pages were checked using Google Dev tools to make sure they were desktop, tablet and mobile compatable.  
+
+### Browsers:
+This site was tested to make sure it loaded correctly on 
+1. Google Chrome 
+1. Microsoft Edge
+1. Mozilla Firefox
+***
 
 ## Bugs:
 1. Font Awesome fonts are copied into the code but when the webiste is loaded are not showing up. 
@@ -100,7 +153,7 @@ The target aduience are parents of kids aged 6 years to 12 years who are showing
 1. While generating the LightHouse Report I was getting an error due to some code that was appearing at the end of each of my .html files, but that I had not written nor was it appearing in GitPod
       1. I went through all my extension I have installed on Google Chrome and discovered that an app was inserting code into the site while in the preview 8000 mode.
       1. I disabled the app and ran the Lighthouse report again which came back without the same feedback. 
-
+***
 ## Valitation:
 
 See screenshot to W3C validator and Jigsaw CSS validator [here](VALIDATION.md "Link to validation screenshots")
@@ -119,12 +172,12 @@ No errors found
 
 ### **Style.css:**
 No errors found
-
+***
 ## Accessibility:
 ![LightHouse Report](assets/readme-images/lighthouse-score.png)
-
+***
 ## Deployment:
-
+***
 ## Credits:
 
 ### Content:
@@ -132,10 +185,14 @@ No errors found
 1. The icons used throughout website were taken from [Font Awesome](https://fontawesome.com/)  
 1. The logo and heading fonts were taken from [Google Fonts](https://fonts.google.com/)
 1. Instructions on who to crop an image was taken from [Digital Ocean](https://www.digitalocean.com/)
-1. CSS Code for image on recipe page was help with by the tutors from Code Institute  
 
 ### Media:
 
 1. Images for this site were downloaded from [Pexel](https://www.pexels.com/)
 1. Video on how to make a flaxseed egg taken from [YouTube](https://www.youtube.com/watch?v=ouUW810R5to)
 
+### Code:
+
+1. I used various different coder forums at times when I had difficulty with aspects of the code. The use of sites such as [W3 Schools](https://www.w3schools.com/) and [Stack Overflow](https://stackoverflow.com/) were hugely helpful, as well as coding community sites like [Site Point Community](https://www.sitepoint.com/community/)  
+Any code taken from these sites were edited to site the needs of this site. 
+1. CSS Code for image on recipe page was help with by the tutors from Code Institute  
