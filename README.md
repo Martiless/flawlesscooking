@@ -72,7 +72,8 @@ This inital drawing had 3 pages *Home, About and Recipe* but since then has beco
 * As a returning user, I would like to see if any new class photos have been added.
 
 ### Color: 
-In order to create a visually appealing website but also an 
+In order to create a visually appealing website but also a website that was easy for people to read I used a number of different sites to test color contrast
+
 
 ### Font:
 
@@ -83,16 +84,23 @@ In order to create a visually appealing website but also an
   
 
 ## Features:
+There are a number of features on this site to help users get the most out of their visit to the site.  
 
 ### General:
-
+Each page has a Header and Navigation bar section. This section is at the top of each page and moves down as the user scrolls down the page allowing them to navigate between pages with out the need to scroll back to the top. 
+![Header and Nav bar](assets/readme-images/Header-and-nav.png)
+![Social Media Icons](assets/readme-images/social-media-buttons.png)
 ### Home page:
-
+![Main section](assets/readme-images/Class-times.png)
+![Enquiry Form](assets/readme-images/enquiry-form.png)
 ### About:
-
+![About-me](assets/readme-images/about-me-section.png)
+![My Experience](assets/readme-images/my-experience-section.png)
 ### Recipes:
-
+![Recipe Section](assets/readme-images/recipe-section.png)
+![Download PDF and video](assets/readme-images/download-and-video.png)
 ### Gallery: 
+![Gallery Page](assets/readme-images/gallery-page-screenshot.png)
 ***
 [Back to top](#Flawless-Cooking-Cookery-School)  
 
