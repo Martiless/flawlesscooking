@@ -10,9 +10,7 @@ This website has been created as the first Milestone project for Code Institute'
 ## Table of content: 
  1. [Site Goals](#Site-Goals)
  1. [UX](#UX)
-      1. [User Goals](#User-Goals)
-            * [Target audience](#Target-audience)
-            * [User Stories](#User-Stories)
+      1. [User Stories](#User-Stories)
       1. [Color](#Color)
       1. [Font](#Font)
       1. [Images](#Images)
@@ -47,17 +45,6 @@ The goals for this site is as follows:
 
 ## UX:
 
-An initial [Wireframe](WIREFRAME.md "Link to Wireframe screenshots") was created using [Balsamiq](https://balsamiq.com/)  
-This inital drawing had 3 pages *Home, About and Recipe* but since then has become a 4 page site with a gallery page showing examples of previous children who have been taught at the school. 
-
-
-## User Goals:
-
- ### Target Audience:
-
-* Parents of children aged 6 - 12 years
-* Grandparents and guardians of children aged 6 - 12 years
-
 ### User stories:
 #### New User:  
 * As a new user I am looking to find information regarding cooking classes for kids.  
@@ -70,6 +57,67 @@ This inital drawing had 3 pages *Home, About and Recipe* but since then has beco
 * As a returning user, I would like to find out if there are any new recipes available to download.
 * As a returning user, I would like to see if there are any new class times added.
 * As a returning user, I would like to see if any new class photos have been added.
+
+## Development Planes:
+To create a website that is comprehensive and informative for a user, as a developer you need to look at all aspects of the website and how someone who visits your website will use it. You have to consider all the user stories that have been outlined in the above sections.  
+
+## Strategy
+The strategy principal looks at user needs as well product/service objectives. For the purpose of this the websites target audience was broken down into three categories:
+### Roles: 
+* New User
+* Existing User  
+
+### Demographic:
+* Parents of young children
+* Grandparents of young children
+* Resident in Cork, Ireland  
+
+### Psychographic:
+#### Lifestyle:
+* Enjoy eating delicious food  
+#### Values:
+* Teaching children life skills at a young age
+* Keeping food waste to a minimum  
+
+#### The website needs to allow users to:  
+* View times of classes for their child's age group  
+* View information about the teacher  
+* Contact the school with regards to classes  
+* Download a sample recipe for trying at home  
+
+
+#### The website needs to allow the teacher at the school to:  
+* Receive enquiries from parents/grandparents/guardians   
+* Receive emails from site visitors through the email icon  
+
+### Scope:  
+
+With the structure in place it was then time to move onto the scope plane. This was all about developing website requirements based on the goals set out in the strategy plane. These requirements are broken down into two categories. 
+#### Content Requirements:
+1. The user will be looking for:
+      * Information on class times 
+      * Information on the teacher
+      * Sample recipes they can try with their kids
+      * Techniques on how to make something they may not have done before
+#### Functionality Requirements:
+1. The user will be able to:
+      * Navigate through the site to find the information they need
+      * Send an email to the school via an enquiry form on the site.
+      * Download a copy of easy recipes to do at home
+      * Watch a video on how to make a flaxseed egg  
+
+
+### Structure:
+
+The information above was then used to create a structure to the website. Below is a site map showing how users can navigate the website intuitively 
+![Sitemap](assets/readme-images/site-map.png)
+
+### Skeleton:
+[Wireframe](WIREFRAME.md "Link to Wireframe screenshots") were created to set out the initial appearance of the website while also making sure to keep the end user in mind at all times. Wireframes were created using [Balsamiq](https://balsamiq.com/).  
+
+### Surface:
+Please see live site
+
 
 ### Color: 
 In order to create a visually appealing website but also a website that was easy for people to read I used a number of different sites to test color contrast
