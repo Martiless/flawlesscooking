@@ -634,7 +634,7 @@ h3 {
 
     #middle {
         width: 100%;
-        height: 980px;
+        height: 1050px;
         margin-top: 180px;
     }
 
@@ -769,5 +769,13 @@ h3 {
     #gallery {
         clear: both;
         column-count: 1
+    }
+}
+
+@media screen and (max-width:350px) {
+    #middle {
+        width: 100%;
+        height: 1085px;
+        margin-top: 180px;
     }
 }
