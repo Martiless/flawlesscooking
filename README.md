@@ -211,11 +211,16 @@ The final page on the website is a *Gallery* page. This page contains all the he
 This section is to look back at the User stories we established during the strategy phase of the project. 
 We are looking to see if we have met all the goals we set out. 
 #### New User:  
-* As a new user, I am looking to find information regarding cooking classes for kids. __Met on the home page of the website__  
-* As a new user, I am looking to contact the school. __Met on the home page of the website in the form of the enquiries form__  
-* As a new user, I would like to find out more about the person who will be teaching my child. __Met on the About page of the website, you get to know more about the teacher and the experince she was__   
-* As a new user, I would like to see pictures of past students of the school.  __Met on the Gallery page of the website. Photos will be update on a regular basis__
-* As a new user, I would like to get an idea of the types of recipes my child will be learning.  __Met on the Recipes page. Ideally this page will be updated with new recipes on a monthly basis__
+* As a new user, I am looking to find information regarding cooking classes for kids.   
+      __Met on the home page of the website__  
+* As a new user, I am looking to contact the school.   
+      __Met on the home page of the website in the form of the enquiries form__  
+* As a new user, I would like to find out more about the person who will be teaching my child.  
+      __Met on the About page of the website, you get to know more about the teacher and the experince she was__   
+* As a new user, I would like to see pictures of past students of the school.  
+      __Met on the Gallery page of the website. Photos will be update on a regular basis__
+* As a new user, I would like to get an idea of the types of recipes my child will be learning.  
+      __Met on the Recipes page. Ideally this page will be updated with new recipes on a monthly basis__
 
 ***
 
