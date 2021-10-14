@@ -154,6 +154,8 @@ Each page has a Header and Navigation bar section. This section is at the top of
 
 ## Testing:
 
+To watch a video of my testing please click [here](https://youtu.be/Qo0AyoJxu1c)  
+
 ### Home page:
 
 * Each button on the navigation bar were tested to make sure they brought you to the correct place.  
