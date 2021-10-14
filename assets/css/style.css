@@ -33,6 +33,11 @@ hr {
     padding-bottom: 600px;
 }
 
+.page-break-about {
+    margin: 20px;
+    padding-bottom: 100px;
+}
+
 /* header */
 
 h2 {
@@ -472,6 +477,11 @@ h3 {
 
     }
 
+    .page-break-about {
+        margin: 20px;
+        padding-bottom: 120px;
+    }
+
     #gallery {
         clear: both;
         column-count: 2;
@@ -511,6 +521,11 @@ h3 {
         width: 80%;
         padding: 0;
         margin: 5px 30px;
+    }
+
+    .page-break-about {
+        margin: 20px;
+        padding-bottom: 120px;
     }
 
     .footer {
@@ -767,6 +782,11 @@ h3 {
         width: 100%;
         float: left;
         padding: 0;
+    }
+
+    .page-break-about {
+        margin: 20px;
+        padding-bottom: 20px;
     }
 
     #gallery {
