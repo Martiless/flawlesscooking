@@ -531,6 +531,8 @@ h3 {
 
     }
 
+    /*The following code was helped with by CI tutors*/
+
     #image {
         float: none;
         display: flex;
