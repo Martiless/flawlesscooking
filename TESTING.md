@@ -28,6 +28,11 @@ All pages were checked using Google Dev tools to make sure they were desktop, ta
 
 ## Browsers:
 This website was tested out on various web browsers to make sure evenything loaded correctly. The browseres tested were: 
-1. Google Chrome 
-1. Microsoft Edge
-1. Mozilla Firefox
+1. ### Google Chrome 
+![Google Chrome](assets/readme-images/Google-Chrome.png)
+1. ### Microsoft Edge
+![Microsoft Edge](assets/readme-images/Microsoft-Edge.png)
+1. ### Mozilla Firefox
+![Firefox](assets/readme-images/Mozilla-Firefox.png)
+
+## User Testing:
