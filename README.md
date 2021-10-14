@@ -288,6 +288,19 @@ No errors found
 ![LightHouse Report](assets/readme-images/lighthouse-score.png)
 ***
 ## Deployment:
+This project was developed using [GitPod](https://gitpod.io/), committed and pushed to [GitHub](https://github.com/) using a GitPod terminal.
+
+Deploying on GitHub Pages
+To deploy this page to GitHub Pages from its GitHub repository, the following steps were taken:
+
+1. Log into GitHub or create an account.
+1. Locate the GitHub Repository.
+1. At the top of the repository, select Settings from the menu items.
+1. Scroll down the Settings page to the "GitHub Pages" section.
+1. Under "Source" click the drop-down menu labelled "None" and select "Master Branch".
+1. Upon selection, the page will automatically refresh meaning that the website is now deployed.
+1. Scroll back down to the "GitHub Pages" section to retrieve the deployed link.
+
 ***
 ## Credits:
 
