@@ -123,7 +123,7 @@ The information above was then used to create a structure for the website. Below
 
 
 ## Skeleton:
-[Wireframes](WIREFRAME.md "Link to Wireframe screenshots") were created to set out the initial appearance of the website while also making sure to keep the end-user in mind at all times. Wireframes were created using [Balsamiq](https://balsamiq.com/).  
+[Wireframes](documents/WIREFRAME.md "Link to Wireframe screenshots") were created to set out the initial appearance of the website while also making sure to keep the end-user in mind at all times. Wireframes were created using [Balsamiq](https://balsamiq.com/).  
 
 ## Surface:
 [Please see the live site here](https://martiless.github.io/flawlesscooking/)  
@@ -199,6 +199,7 @@ The final page on the website is a *Gallery* page. This page contains all the he
 * A rolling gallery in the *Gallery* page instead of a static gallery.
 * An upload your images section that allows users to upload images of recipes they have tried out.
 * A shop where users can buy vouchers or cooking equipment and accessories. 
+* A rolling testimonial in the footer, allowing users to see feedback from previous clients.
 
 ***
 [Back to top](#Flawless-Cooking-Cookery-School)  
@@ -271,7 +272,7 @@ This site was tested to make sure it loaded correctly on
 
 ## Valitation:
 
-See screenshot to W3C validator and Jigsaw CSS validator [here](VALIDATION.md "Link to validation screenshots")
+See screenshot to W3C validator and Jigsaw CSS validator [here](documents/VALIDATION.md "Link to validation screenshots")
 
 ### **Index.html:**
 No errors found. 
