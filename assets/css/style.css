@@ -167,6 +167,7 @@ tr {
     font-family: "Amatic SC", sans-serif;
     font-size: xx-large;
 }
+
 .input {
     background-color: white;
     border: 1px solid #012A36;
@@ -259,8 +260,8 @@ footer h2 {
 }
 
 #brownie {
-    width: 500px;
-    height: 550px;
+    width: inherit;
+    height: inherit;
     float: left;
     object-fit: cover;
     border: 5px solid #012A36;
@@ -271,9 +272,11 @@ footer h2 {
     width: 32%;
     margin: 1px;
 }
+
 #method li {
     line-height: 25px;
 }
+
 #ingredients {
     float: left;
     width: 32%;
@@ -284,8 +287,7 @@ footer h2 {
 }
 
 #image {
-    float: left;
-    width: 33%;
+    width: fit-content;
     margin: 0px 10px 20px 0px;
 }
 
@@ -328,8 +330,8 @@ ul {
 }
 
 #teacher {
-    width: 500px;
-    height: 500px;
+    width: inherit;
+    height: inherit;
     float: left;
     object-fit: cover;
     border: 5px solid #012A36;
@@ -346,7 +348,8 @@ ul {
 
 #left-side-section {
     float: left;
-    width: 40%;
+    width: 500px;
+    height: 450px;
     margin: 0 0 20px 0;
     display: block;
 }
@@ -361,11 +364,11 @@ ul {
     background-color: #7E52A0;
     width: 45%;
     height: 250px;
-    float: left;
     padding: 30px 0 0 10px;
     text-align: center;
     border: 25px solid white;
     line-height: 25px;
+    margin: auto;
 
 }
 
