@@ -1,6 +1,6 @@
 # Flawless Cooking Cookery School 
 
-This website is designed for a fictional cooking school based in Cork, Ireland. It is complete with an enquiry form for potential clients to get in contact with the school, an about section to tell people a little about the teacher and a gallery page which shows images of past students to the school. There is also a recipes page with a sample brownie recipe. This page also cotains a downloadable verison of the recipe and a video on how to make a flaxseed egg for anyone who would like to make a vegan friendly version of the brownie. 
+This website is designed for a fictional cooking school based in Cork, Ireland. It is complete with an enquiry form for potential clients to get in contact with the school, an about section to tell people a little about the teacher and a gallery page which shows images of past students to the school. There is also a recipes page with a sample brownie recipe. This page also contains a downloadable version of the recipe and a video on how to make a flaxseed egg for anyone who would like to make a vegan-friendly version of the brownie. 
 This website has been created as the first Milestone project for Code Institute's Full Stack Software Development Diploma. 
 
 ![Am I Responsive](assets/readme-images/am-i-responsive.png)
@@ -41,19 +41,19 @@ This website has been created as the first Milestone project for Code Institute'
 
 ## Site Goals:
 
-The goals for this site is as follows:
+The goals for this site are as follows:
 * To provide information to users about kids cookery classes in Cork.
 * To provide users with a downloadable sample recipe.
-* To allow users gain some information about the teacher.
+* To allow users to gain some information about the teacher.
 * Gain more students to the school.
-* Invite enquires from parents with children interested in cooking.
+* Invite enquiries from parents with children interested in cooking.
 * To provide easy to follow recipes that parents can do at home with their kids. 
 
 ## UX:
 
 ### User stories:
 #### New User:  
-* As a new user I am looking to find information regarding cooking classes for kids.  
+* As a new user, I am looking to find information regarding cooking classes for kids.  
 * As a new user, I am looking to contact the school.  
 * As a new user, I would like to find out more about the person who will be teaching my child.  
 * As a new user, I would like to see pictures of past students of the school.  
@@ -68,7 +68,7 @@ The goals for this site is as follows:
 To create a website that is comprehensive and informative for a user, as a developer you need to look at all aspects of the website and how someone who visits your website will use it. You have to consider all the user stories that have been outlined in the above sections.  
 
 ## Strategy
-The strategy principal looks at user needs as well product/service objectives. For the purpose of this the websites target audience was broken down into three categories:
+The strategy principal looks at user needs, as well product/service objectives. This websites target audience was broken down into three categories:
 ### Roles: 
 * New User
 * Existing User  
@@ -98,7 +98,7 @@ The strategy principal looks at user needs as well product/service objectives. F
 
 ## Scope:  
 
-With the structure in place it was then time to move onto the scope plane. This was all about developing website requirements based on the goals set out in the strategy plane. These requirements are broken down into two categories. 
+With the structure in place, it was then time to move onto the scope plane. This was all about developing website requirements based on the goals set out in the strategy plane. These requirements are broken down into two categories. 
 ### Content Requirements:
 1. The user will be looking for:
       * Information on class times 
@@ -115,7 +115,7 @@ With the structure in place it was then time to move onto the scope plane. This 
 
 ## Structure:
 
-The information above was then used to create a structure to the website. Below is a site map showing how users can navigate the website intuitively 
+The information above was then used to create a structure for the website. Below is a site map showing how users can navigate the website intuitively 
 <details>
 <summary>Sitemap</summary>
 
@@ -124,20 +124,20 @@ The information above was then used to create a structure to the website. Below 
 
 
 ## Skeleton:
-[Wireframe](WIREFRAME.md "Link to Wireframe screenshots") were created to set out the initial appearance of the website while also making sure to keep the end user in mind at all times. Wireframes were created using [Balsamiq](https://balsamiq.com/).  
+[Wireframes](WIREFRAME.md "Link to Wireframe screenshots") were created to set out the initial appearance of the website while also making sure to keep the end-user in mind at all times. Wireframes were created using [Balsamiq](https://balsamiq.com/).  
 
 ## Surface:
-Please see live site
+Please see the live site here.  
 
 
 ### Color: 
-In order to create a visually appealing website but also a website that was easy for people to read I used a number of different sites to test color contrast. I wanted to make sure the colour scheme was not only eye catching but also that it passed the LightHouse Assessibility test. 
+To create a visually appealing website but also a website that was easy for people to read I used several different sites to test color contrast. I wanted to make sure the color scheme was not only eye-catching but also that it passed the LightHouse Accessibility test. 
 
-Initially I looked at what colours work best with the purple colour I had choosen as my main colour. I did this my using a colour wheel.  
+Initially, I looked at what colors work best with the purple color I had chosen as my main color. I did this by using a color wheel.  
 ![Color Wheel](assets/readme-images/Color-ombinations-Cheat-Sheet.png)
 
 
-Following on from the colour wheel, an orange was decided upon to contrast the purple. In order to make sure text could be seen without issue on my choosen colours I used [Coolors](https://coolors.co/) colour contrast checker.
+Following on from the color wheel, an orange was decided upon to contrast the purple. To make sure text could be seen without issue on my chosen colors I used [Coolors](https://coolors.co/) color contrast checker.
 
 
 ![Color Checker 1](assets/readme-images/text-area-contrast.png)
@@ -147,33 +147,33 @@ Following on from the colour wheel, an orange was decided upon to contrast the p
 
 ### Font:
 
-The font pairing for this website was [Italianno](https://fonts.google.com/specimen/Italianno?preview.text=Love%20Running%20&preview.text_type=custom&query=ita) [Roboto](https://fonts.google.com/specimen/Roboto?preview.text=Love%20Running%20&preview.text_type=custom&query=ro) and [Amatic SC](https://fonts.google.com/specimen/Amatic+SC?query=Amatic+SC), all of which were imported from [Google Fonts](https://fonts.google.com/), with a backup font family of Sans-Serif incase there were any issues with the imported fonts  
+The font pairing for this website was [Italianno](https://fonts.google.com/specimen/Italianno?preview.text=Love%20Running%20&preview.text_type=custom&query=ita) [Roboto](https://fonts.google.com/specimen/Roboto?preview.text=Love%20Running%20&preview.text_type=custom&query=ro) and [Amatic SC](https://fonts.google.com/specimen/Amatic+SC?query=Amatic+SC), all of which were imported from [Google Fonts](https://fonts.google.com/), with a backup font family of Sans-Serif in case there were any issues with the imported fonts  
 
 *Italianno* was used as the font in the header section of the website. *Amatic SC* was used for all headings throughout the website with *Roboto* being used for all the text areas.  
 
 ### Images:
 
-Alot of the imagery on this site was sourced from [Pexel](https://www.pexels.com/) with a number of real live images too.  
-All the images that were sourced from Pexel were uploaded to the site initally and were placed on the gallery page. However, after testing the site on a number of people it was said the images were taking too long to load and slowing down the Gallery page. To inhance the user experience on the Gallery page all the Pexel images were compressed and uploaded again. This meant that the quality of the image was still high while the page loaded quicker making it a nicer experience for any potential user.  
+A lot of the imagery on this site was sourced from [Pexel](https://www.pexels.com/) with some real life images too.  
+All the images that were sourced from Pexel were uploaded to the site initially and were placed on the gallery page. However, after testing the site on a number of people it was said the images were taking too long to load and slowing down the Gallery page. To enhance the user experience on the Gallery page all the Pexel images were compressed and uploaded again. This meant that the quality of the image was still high while the page loaded quicker making it a nicer experience for any potential user.  
 
 ***
 [Back to top](#Flawless-Cooking-Cookery-School)  
   
 
 ## Features:
-There are a number of features on this site to help users get the most out of their visit to the site.  
+There are several features on this site to help users get the most out of their visit to the site.  
 
 ### General:
 #### Header and Navigation:  
-Each page has a Header and Navigation bar section. This section is at the top of each page and moves down as the user scrolls down the page allowing them to navigate between pages with out the need to scroll back to the top. The navigation bar consisted of links to an *About* page, a *Recipes* page and a *Gallerys*, as well as a *Home* button that brings the user back to the landing page.  
+Each page has a Header and Navigation bar section. This section is at the top of each page and moves down as the user scrolls down the page allowing them to navigate between pages without the need to scroll back to the top. The navigation bar consisted of links to an *About* page, a *Recipes* page and a *Gallery*, as well as a *Home* button that brings the user back to the landing page.  
 ![Header and Nav bar](assets/readme-images/Header-and-nav.png)  
 #### Footer:  
-Each page also has a footer element. This contains links to the schools social media pages, i.e Facebook and Instagram, along with an email button that allows a user to send an email to the school from their own email account. All of this icon, when clicked will open in a new tab.  
+Each page also has a footer element. This contains links to the school's social media pages, i.e Facebook and Instagram, along with an email button that allows a user to send an email to the school from their email account. All of these icons, when clicked will open in a new tab.  
 ![Social Media Icons](assets/readme-images/social-media-buttons.png)
 ### Home page:
 The *Home* page contains all the header and footer features mentioned above.  
 #### Main Section:
-In the main section of the *Home* page there is main image (or hero image) followed by an introductionary section, which contains an image, paragraph about the school and a timetable for classes.  
+In the main section of the *Home* page, there is the main image (or hero image) followed by an introductory section, which contains an image, a paragraph about the school and a timetable for classes.  
 ![Main section](assets/readme-images/Class-times.png)
 
 #### Enquiry Form:
@@ -182,18 +182,18 @@ The next thing a user will be met with is an enquiry form. This can be used to c
 ### About:
 The next page on the website is an *About* page. This page contains all the header and footer features mentioned above.
 #### About Me:
-This page  contains a section that allows the user to click onto the websites of restaurants the teacher has previously worked. 
+This page contains a section that allows the user to click through to the websites of restaurants the teacher has previously worked. 
 ![My Experience](assets/readme-images/my-experience-section.png)  
 
 ### Recipes:
-The next page on the website is an *Recipes* page. This page contains all the header and footer features mentioned above, as well as a link within the ingredients section that directs users to a video at the bottom of the page. 
+The next page on the website is a *Recipes* page. This page contains all the header and footer features mentioned above, as well as a link within the ingredients section that directs users to a video at the bottom of the page. 
 #### Download and Video:
-Within the recipes page a user can scroll down to a section where there is a *download this recipe here* button. This opens the recipe on a new page where the user can download it to their desired device.  
-If also has an embedded video on how to *Make a Flaxseed Egg* for any user who would like to make a vegan friendly version on the brownie.  
+Within the recipes page, a user can scroll down to a section where there is a *download this recipe here* button. This opens the recipe on a new page where the user can download it to their desired device.  
+It also has an embedded video on how to *Make a Flaxseed Egg* for any user who would like to make a vegan-friendly version of the brownie.  
 ![Download PDF and video](assets/readme-images/download-and-video.png)  
 
 ### Gallery: 
-The final page on the website is an *Gallery* page. This page contains all the header and footer features mentioned above.  
+The final page on the website is a *Gallery* page. This page contains all the header and footer features mentioned above.  
 ![Gallery Page](assets/readme-images/gallery-page-screenshot.png)
 
 ***
@@ -205,7 +205,7 @@ To watch a video of my testing please click [here](https://youtu.be/Qo0AyoJxu1c)
 
 ### Home page:
 
-* Each button on the navigation bar were tested to make sure they brought you to the correct place.  
+* Each button on the navigation bar were tested to make sure it brought you to the correct place.  
 * The logo in the header was tested to make sure you return to the home page when it is clicked on.  
 * Each social media icon in the footer was tested to make sure they not only opened in the correct social media pages but that they also opened in a new tab.
 * The email icon in the footer was tested to make sure it opened correctly
@@ -216,7 +216,7 @@ To watch a video of my testing please click [here](https://youtu.be/Qo0AyoJxu1c)
 * Header and footer as above.  
 * Links in the experience section were tested to make sure they both brought you to the right websites but also opened in new tabs.
 
-### Receipes page: 
+### Recipes page: 
 * Header and footer as above.  
 * Link in the ingredients was tested to make sure it directs users to the video at the bottom of the page.
 * Download button was tested to make sure it opened a downloadable PDF in a new tab for users.
@@ -226,7 +226,7 @@ To watch a video of my testing please click [here](https://youtu.be/Qo0AyoJxu1c)
 * Header and footer as above.
 
 ### Responsiveness:
-All pages were checked using Google Dev tools to make sure they were desktop, tablet and mobile compatable.  
+All pages were checked using Google Dev tools to make sure they were desktop, tablet and mobile compatible.  
 
 ### Browsers:
 This site was tested to make sure it loaded correctly on 
@@ -239,27 +239,27 @@ This site was tested to make sure it loaded correctly on
 
 
 ## Bugs:
-1. Font Awesome fonts are copied into the code but when the webiste is loaded are not showing up. 
+1. Font Awesome fonts are copied into the code but when the website is loaded are not showing up. 
       1. I had forgotten to add the Font Awesome source code to the footer section of each page.
-1. Main image not loading when page refreshed.
-      1. Looked at source to make sure I was using the correct syntax, I had added in an extra full stop. Removing this extra full stop solved my issue.
-1. Second image not cropping correctly.
-      1. Instead of using the same method as the header image, I inserted the second image in the html as a < img > tag and styled it using CSS
+1. The main image not loading when the page is refreshed.
+      1. Looked at the source to make sure I was using the correct syntax, I had added in an extra full stop. Removing this extra full stop solved my issue.
+1. The second image not cropping correctly.
+      1. Instead of using the same method as the header image, I inserted the second image in the HTML as a < img > tag and styled it using CSS
 1. Image and text in "Middle" would not wrap for me. 
       1. I tried a number of things including rewriting the code, troubleshooting to see if I had used the wrong code in the first place and eventually contacted the Code Institute tutors to see if I could get a better understanding as to why this was not working for me the way I wanted it to. 
-      1. After speaking with a tutor I was able to see that I had to take a closer look at my margins and padding to allow both the image and text fit side my side in the designated area.
-1. About page would not load correctly after adding the media queries to the pagea.
+      1. After speaking with a tutor I was able to see that I had to take a closer look at my margins and padding to allow both the image and text to fit side by side in the designated area.
+1. About page would not load correctly after adding the media queries to the page.
       1. Used Google Dev Tools to try and fix the code. The code was in GitPod but not appearing in Dev tools
       1. Tried hard refreshes
-      1. Tried rewritting the code
-      1. Finally contacted the Code Institute tutors who helped me see that I was missing some closing brackets from previous media queries that was causing the code from the About page to be overwritten. Once these bracets were closed the page loaded correctly.
+      1. Tried rewriting the code
+      1. Finally contacted the Code Institute tutors who helped me see that I was missing some closing brackets from a previous media query that was causing the code from the About page to be overwritten. Once these brackets were closed the page loaded correctly.
 1. When I was making my site responsive pages recipe page started to load wrong, i.e the footer was above the middle section of the page. 
-      1. I was having a really hard time with this one as I had double and triple checked all my code in GitPod and also used Google Dev tools and couldn't see any problem. I eventually decided to used the Tutor service where one of the tutors explained to me about flex and flex-box as a way of displaying content instead of floats. By changing the images css from a float to a flex corrected the issue I was having.
+      1. I was having a really hard time with this one as I had double and triple checked all my code in GitPod and also used Google Dev tools and couldn't see any problem. I eventually decided to used the Tutor service where one of the tutors explained to me about flex and flex-box as a way of displaying content instead of floats. By changing the image's CSS from a float to a flex corrected the issue I was having.
 1. Navigation bar was not responding correctly when viewed in tablet form. 
-      1. Used Google Dev Tools to try differnt methods of getting the page to work.
-      1. Eventually discoverd that the margin wasn't set correctly as it was still set to the default margins.
+      1. Used Google Dev Tools to try different methods of getting the page to work.
+      1. Eventually discovered that the margin wasn't set correctly as it was still set to the default margins.
 1. While generating the LightHouse Report I was getting an error due to some code that was appearing at the end of each of my .html files, but that I had not written nor was it appearing in GitPod
-      1. I went through all my extension I have installed on Google Chrome and discovered that an app was inserting code into the site while in the preview 8000 mode.
+      1. I went through all the extensions I have installed on Google Chrome and discovered that an app was inserting code into the site while in preview mode.
       1. I disabled the app and ran the Lighthouse report again which came back without the same feedback.
 
 ***
@@ -306,7 +306,7 @@ To deploy this page to GitHub Pages from its GitHub repository, the following st
 
 ### Content:
 
-1. The icons used throughout website were taken from [Font Awesome](https://fontawesome.com/)  
+1. The icons used throughout the website were taken from [Font Awesome](https://fontawesome.com/)  
 1. The logo and heading fonts were taken from [Google Fonts](https://fonts.google.com/)
 1. Instructions on who to crop an image was taken from [Digital Ocean](https://www.digitalocean.com/)
 
@@ -317,9 +317,9 @@ To deploy this page to GitHub Pages from its GitHub repository, the following st
 
 ### Code:
 
-1. I used various different coder forums at times when I had difficulty with aspects of the code. The use of sites such as [W3 Schools](https://www.w3schools.com/) and [Stack Overflow](https://stackoverflow.com/) were hugely helpful, as well as coding community sites like [Site Point Community](https://www.sitepoint.com/community/)  
-Any code taken from these sites were edited to site the needs of this site. 
-1. CSS Code for image on recipe page was help with by the tutors from Code Institute  
+1. I used various coder forums at times when I had difficulty with aspects of the code. The use of sites such as [W3 Schools](https://www.w3schools.com/) and [Stack Overflow](https://stackoverflow.com/) was hugely helpful, as well as coding community sites like [Site Point Community](https://www.sitepoint.com/community/)  
+Any code taken from these sites were edited to suit the needs of this site. 
+1. CSS Code for the image on the *Recipe* page was help with by the tutors from Code Institute  
 
 *** 
 [Back to top](#Flawless-Cooking-Cookery-School) 
