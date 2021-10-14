@@ -5,7 +5,7 @@ This website has been created as the first Milestone project for Code Institute'
 
 ![Am I Responsive](assets/readme-images/am-i-responsive.png)
 
-### View the live website [here]()
+### View the live website [here](https://martiless.github.io/flawlesscooking/)
 ***
 ## Table of content: 
  1. [Site Goals](#Site-Goals)
@@ -127,7 +127,7 @@ The information above was then used to create a structure for the website. Below
 [Wireframes](WIREFRAME.md "Link to Wireframe screenshots") were created to set out the initial appearance of the website while also making sure to keep the end-user in mind at all times. Wireframes were created using [Balsamiq](https://balsamiq.com/).  
 
 ## Surface:
-Please see the live site here.  
+[Please see the live site here](https://martiless.github.io/flawlesscooking/)  
 
 
 ### Color: 
