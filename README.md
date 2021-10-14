@@ -206,7 +206,8 @@ The final page on the website is a *Gallery* page. This page contains all the he
 
 ## Testing:
 
-To watch a video of my testing please click [here](https://youtu.be/Qo0AyoJxu1c)  
+To watch a video of my  features testing please click [here](https://youtu.be/Qo0AyoJxu1c)  
+## Features Testing:
 
 ### Home page:
 
@@ -230,11 +231,11 @@ To watch a video of my testing please click [here](https://youtu.be/Qo0AyoJxu1c)
 ### Gallery page:
 * Header and footer as above.
 
-### Responsiveness:
-All pages were checked using Google Dev tools to make sure they were desktop, tablet and mobile compatible.  
+## Responsiveness:
+All pages were checked using Google Dev tools to make sure they were desktop, tablet and mobile compatible. It was also tested using a Samsung Galaxy A52 and an iPad to make sure the website worked correctly
 
-### Browsers:
-This site was tested to make sure it loaded correctly on 
+## Browsers:
+This website was tested out on various web browsers to make sure evenything loaded correctly. The browseres tested were: 
 1. Google Chrome 
 1. Microsoft Edge
 1. Mozilla Firefox
