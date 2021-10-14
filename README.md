@@ -275,6 +275,7 @@ For the purpose of this project the following technologies were used.
 * Google Dev Tools was used to edit code and check responsiveness before making the changes permanent.
 
 *** 
+[Back to top](#Flawless-Cooking-Cookery-School)
 
 ## Validation:
 
@@ -294,7 +295,10 @@ No errors found
 
 ### **Style.css:**
 No errors found
+
 ***
+[Back to top](#Flawless-Cooking-Cookery-School)
+
 ## Accessibility:
 ![LightHouse Report](assets/readme-images/lighthouse-score.png)
 ***
