@@ -293,12 +293,13 @@ Deploying on GitHub Pages
 To deploy this page to GitHub Pages from its GitHub repository, the following steps were taken:
 
 1. Log into GitHub.
-1. Locate the GitHub Repository.
+1. Locate the GitHub Repository you are using.
 1. At the top of the repository, select Settings from the menu items.
 1. Scroll down the Settings page to the "GitHub Pages" section.
-1. Under "Source" click the drop-down menu labelled "None" and select "Master Branch".
-1. Upon selection, the page will automatically refresh meaning that the website is now deployed.
-1. Scroll back down to the "GitHub Pages" section to retrieve the deployed link.
+1. Click on the link provided. To opens a new tab, right click on your mouse and select open in new tab.
+1. Under "Source" click the drop-down menu labelled "None" and select "Main". Once this is done click on "save"
+1. Once you have clicked save, the page will automatically refresh. You will now get a link to the deployed website.
+1. Copy this link and off you go. 
 
 ***
 ## Credits:
