@@ -1,7 +1,8 @@
 # Flawless Cooking Cookery School 
 
-This website is designed for a fictional cooking school based in Cork, Ireland. It is complete with an enquiry form for potential clients to get in contact with the school, an about section to tell people a little about the teacher and a gallery page which shows images of past students to the school. There is also a recipes page with a sample brownie recipe. This page also contains a downloadable version of the recipe and a video on how to make a flaxseed egg for anyone who would like to make a vegan-friendly version of the brownie. 
-This website has been created as the first Milestone project for Code Institute's Full Stack Software Development Diploma. 
+This website is designed for a fictional cooking school based in Cork, Ireland. It is complete with an enquiry form for potential clients to get in contact with the school, an about section to tell people a little about the teacher and a gallery page which shows images of past students to the school. There is also a recipes page with a sample brownie recipe. This page also contains a downloadable version of the recipe and a video on how to make a flaxseed egg for anyone who would like to make a vegan-friendly version of the brownie.  
+
+This website has been created as the first Milestone project for Code Institute's Full Stack Software Development Diploma. It was built using HTML and CSS. GitPod was used for writing the code for this website, as well as commiting and pushing to GitHub. GitHub was then used to store the project after it had been pushed from GitPod. Once all the code had been written, GitPages was then used to deploy the website. 
 
 ![Am I Responsive](assets/readme-images/am-i-responsive.png)
 
@@ -28,6 +29,7 @@ This website has been created as the first Milestone project for Code Institute'
       1. [Gallery](#Gallery)
  1. [Testing](#Testing)
  1. [Bugs](#Bugs)
+ 1. [Technologies Used](#Technologies-Used)
  1. [Validation](#Validation)
  1. [Accessibilty](#Accessibilty)
  1. [Deployment](#Deployment)
@@ -235,6 +237,44 @@ Testing information can be viewed [here](TESTING.md "Link to testing information
 
 ***
 [Back to top](#Flawless-Cooking-Cookery-School) 
+
+## Technologies Used:
+For the purpose of this project the following technologies were used.  
+
+### Languages:
+* HTML
+* CSS 
+
+### Frameworks, Libraries, Programs & Applications Used:
+
+#### Google Font
+* Google fonts was used to import the following fonts [Italianno](https://fonts.google.com/specimen/Italianno?preview.text=Love%20Running%20&preview.text_type=custom&query=ita), [Roboto](https://fonts.google.com/specimen/Roboto?preview.text=Love%20Running%20&preview.text_type=custom&query=ro) and [Amatic SC](https://fonts.google.com/specimen/Amatic+SC?query=Amatic+SC). These were imported to style.css and were used throughout the project.  
+
+#### Font Awesome
+* Font Awesome was used on each page of the website to provide icons for UX purposes.  
+
+#### GitPod
+* GitPod was used for writing all the code for this project. It was also used to commit and push to GitHub.  
+
+#### GitHub 
+* GitHub was used to store this project.
+
+#### GitPages
+* GitPages was used to deploy the project.
+
+#### Balsamiq 
+* Balsamiq was used to draw inital Wireframes for this project.
+
+#### Figma
+* Figma was used during the structure phase of this project. It was used to create a sitemap of the website. 
+
+#### Am I Responsive
+* Am I Responsive was used to check that each page of the site was responsive. It was also used to create the mock up image seen at the beginning of this document. 
+
+#### Google Development Tools
+* Google Dev Tools was used to edit code and check responsiveness before making the changes permanent.
+
+*** 
 
 ## Validation:
 
