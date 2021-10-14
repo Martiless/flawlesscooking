@@ -28,6 +28,7 @@ This website has been created as the first Milestone project for Code Institute'
       1. [Recipes](#Recipes)
       1. [Gallery](#Gallery)
  1. [Testing](#Testing)
+ 1. [User Stories Met](#User-Stories-Met)
  1. [Bugs](#Bugs)
  1. [Technologies Used](#Technologies-Used)
  1. [Validation](#Validation)
@@ -205,6 +206,18 @@ The final page on the website is a *Gallery* page. This page contains all the he
 
 ***
 [Back to top](#Flawless-Cooking-Cookery-School)  
+
+## User Stories Met:
+This section is to look back at the User stories we established during the strategy phase of the project. 
+We are looking to see if we have met all the goals we set out. 
+#### New User:  
+* As a new user, I am looking to find information regarding cooking classes for kids. _Met on the home page of the website_  
+* As a new user, I am looking to contact the school. _Met on the home page of the website in the form of the enquiries form_  
+* As a new user, I would like to find out more about the person who will be teaching my child. _Met on the About page of the website, you get to know more about the teacher and the experince she was_   
+* As a new user, I would like to see pictures of past students of the school.  _Met on the Gallery page of the website. Photos will be update on a regular basis_  
+* As a new user, I would like to get an idea of the types of recipes my child will be learning.  _Met on the Recipes page. Ideally this page will be updated with new recipes on a monthly basis_
+
+***
 
 ## Testing:
 Testing information can be viewed [here](TESTING.md "Link to testing information")
