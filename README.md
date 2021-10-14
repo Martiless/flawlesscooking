@@ -11,6 +11,12 @@ This website has been created as the first Milestone project for Code Institute'
  1. [Site Goals](#Site-Goals)
  1. [UX](#UX)
       1. [User Stories](#User-Stories)
+      1. [Development Planes](#Development-Planes)
+            * [Strategy](#Strategy)
+            * [Scope](#Scope)
+            * [Structure](#Structure)
+            * [Skeleton](#Skeleton)
+            * [Surface](#Surface)
       1. [Color](#Color)
       1. [Font](#Font)
       1. [Images](#Images)
@@ -90,16 +96,16 @@ The strategy principal looks at user needs as well product/service objectives. F
 * Receive enquiries from parents/grandparents/guardians   
 * Receive emails from site visitors through the email icon  
 
-### Scope:  
+## Scope:  
 
 With the structure in place it was then time to move onto the scope plane. This was all about developing website requirements based on the goals set out in the strategy plane. These requirements are broken down into two categories. 
-#### Content Requirements:
+### Content Requirements:
 1. The user will be looking for:
       * Information on class times 
       * Information on the teacher
       * Sample recipes they can try with their kids
       * Techniques on how to make something they may not have done before
-#### Functionality Requirements:
+### Functionality Requirements:
 1. The user will be able to:
       * Navigate through the site to find the information they need
       * Send an email to the school via an enquiry form on the site.
@@ -107,15 +113,20 @@ With the structure in place it was then time to move onto the scope plane. This 
       * Watch a video on how to make a flaxseed egg  
 
 
-### Structure:
+## Structure:
 
 The information above was then used to create a structure to the website. Below is a site map showing how users can navigate the website intuitively 
-![Sitemap](assets/readme-images/site-map.png)
+<details>
+<summary>Sitemap</summary>
 
-### Skeleton:
+![Sitemap](assets/readme-images/site-map.png)
+</details>
+
+
+## Skeleton:
 [Wireframe](WIREFRAME.md "Link to Wireframe screenshots") were created to set out the initial appearance of the website while also making sure to keep the end user in mind at all times. Wireframes were created using [Balsamiq](https://balsamiq.com/).  
 
-### Surface:
+## Surface:
 Please see live site
 
 
@@ -125,15 +136,25 @@ In order to create a visually appealing website but also a website that was easy
 Initially I looked at what colours work best with the purple colour I had choosen as my main colour. I did this my using a colour wheel.  
 ![Color Wheel](assets/readme-images/Color-ombinations-Cheat-Sheet.png)
 
+
 Following on from the colour wheel, an orange was decided upon to contrast the purple. In order to make sure text could be seen without issue on my choosen colours I used [Coolors](https://coolors.co/) colour contrast checker.
 
-![Colour Checker 1](assets/readme-images/text-area-contrast.png)
-![Colour Checker 2](assets/readme-images/button-color-check.png)
+
+![Color Checker 1](assets/readme-images/text-area-contrast.png)
+![Color Checker 2](assets/readme-images/button-color-check.png)
+
 
 
 ### Font:
 
+The font pairing for this website was [Italianno](https://fonts.google.com/specimen/Italianno?preview.text=Love%20Running%20&preview.text_type=custom&query=ita) [Roboto](https://fonts.google.com/specimen/Roboto?preview.text=Love%20Running%20&preview.text_type=custom&query=ro) and [Amatic SC](https://fonts.google.com/specimen/Amatic+SC?query=Amatic+SC), all of which were imported from [Google Fonts](https://fonts.google.com/), with a backup font family of Sans-Serif incase there were any issues with the imported fonts  
+
+*Italianno* was used as the font in the header section of the website. *Amatic SC* was used for all headings throughout the website with *Roboto* being used for all the text areas.  
+
 ### Images:
+
+Alot of the imagery on this site was sourced from [Pexel](https://www.pexels.com/) with a number of real live images too.  
+All the images that were sourced from Pexel were uploaded to the site initally and were placed on the gallery page. However, after testing the site on a number of people it was said the images were taking too long to load and slowing down the Gallery page. To inhance the user experience on the Gallery page all the Pexel images were compressed and uploaded again. This meant that the quality of the image was still high while the page loaded quicker making it a nicer experience for any potential user.  
 
 ***
 [Back to top](#Flawless-Cooking-Cookery-School)  
@@ -143,8 +164,11 @@ Following on from the colour wheel, an orange was decided upon to contrast the p
 There are a number of features on this site to help users get the most out of their visit to the site.  
 
 ### General:
-Each page has a Header and Navigation bar section. This section is at the top of each page and moves down as the user scrolls down the page allowing them to navigate between pages with out the need to scroll back to the top. 
-![Header and Nav bar](assets/readme-images/Header-and-nav.png)
+#### Header and Navigation:  
+Each page has a Header and Navigation bar section. This section is at the top of each page and moves down as the user scrolls down the page allowing them to navigate between pages with out the need to scroll back to the top. The navigation bar consisted of links to an *About* page, a *Recipes* page and a *Gallerys*, as well as a *Home* button that brings the user back to the landing page.  
+![Header and Nav bar](assets/readme-images/Header-and-nav.png)  
+#### Footer:  
+Each page also has a footer element. This contains links to the schools social media pages, i.e Facebook and Instagram, along with an email button that allows a user to send an email to the school from their own email account. All of this icon, when clicked will open in a new tab.  
 ![Social Media Icons](assets/readme-images/social-media-buttons.png)
 ### Home page:
 ![Main section](assets/readme-images/Class-times.png)
