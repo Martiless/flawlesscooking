@@ -128,7 +128,7 @@ Initially I looked at what colours work best with the purple colour I had choose
 Following on from the colour wheel, an orange was decided upon to contrast the purple. In order to make sure text could be seen without issue on my choosen colours I used [Coolors](https://coolors.co/) colour contrast checker.
 
 ![Colour Checker 1](assets/readme-images/text-area-contrast.png)
-![Colour Checker 2](assets/readme-images/button-color-checker.png)
+![Colour Checker 2](assets/readme-images/button-color-check.png)
 
 
 ### Font:
