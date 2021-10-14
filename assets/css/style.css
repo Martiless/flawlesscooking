@@ -177,6 +177,10 @@ tr {
     resize: none;
 }
 
+.radio {
+    cursor: pointer;
+}
+
 #textarea {
     height: 60px;
 }
