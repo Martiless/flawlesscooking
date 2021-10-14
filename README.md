@@ -171,16 +171,31 @@ Each page has a Header and Navigation bar section. This section is at the top of
 Each page also has a footer element. This contains links to the schools social media pages, i.e Facebook and Instagram, along with an email button that allows a user to send an email to the school from their own email account. All of this icon, when clicked will open in a new tab.  
 ![Social Media Icons](assets/readme-images/social-media-buttons.png)
 ### Home page:
+The *Home* page contains all the header and footer features mentioned above.  
+#### Main Section:
+In the main section of the *Home* page there is main image (or hero image) followed by an introductionary section, which contains an image, paragraph about the school and a timetable for classes.  
 ![Main section](assets/readme-images/Class-times.png)
+
+#### Enquiry Form:
+The next thing a user will be met with is an enquiry form. This can be used to contact the school if they are interested in a class for a child. All sections of the enquiry form must be filled out before submitting it. If it is not complete an error message will appear to inform the user they are missing some information.  
 ![Enquiry Form](assets/readme-images/enquiry-form.png)
 ### About:
-![About-me](assets/readme-images/about-me-section.png)
-![My Experience](assets/readme-images/my-experience-section.png)
+The next page on the website is an *About* page. This page contains all the header and footer features mentioned above.
+#### About Me:
+This page  contains a section that allows the user to click onto the websites of restaurants the teacher has previously worked. 
+![My Experience](assets/readme-images/my-experience-section.png)  
+
 ### Recipes:
-![Recipe Section](assets/readme-images/recipe-section.png)
-![Download PDF and video](assets/readme-images/download-and-video.png)
+The next page on the website is an *Recipes* page. This page contains all the header and footer features mentioned above, as well as a link within the ingredients section that directs users to a video at the bottom of the page. 
+#### Download and Video:
+Within the recipes page a user can scroll down to a section where there is a *download this recipe here* button. This opens the recipe on a new page where the user can download it to their desired device.  
+If also has an embedded video on how to *Make a Flaxseed Egg* for any user who would like to make a vegan friendly version on the brownie.  
+![Download PDF and video](assets/readme-images/download-and-video.png)  
+
 ### Gallery: 
+The final page on the website is an *Gallery* page. This page contains all the header and footer features mentioned above.  
 ![Gallery Page](assets/readme-images/gallery-page-screenshot.png)
+
 ***
 [Back to top](#Flawless-Cooking-Cookery-School)  
 
@@ -218,7 +233,10 @@ This site was tested to make sure it loaded correctly on
 1. Google Chrome 
 1. Microsoft Edge
 1. Mozilla Firefox
+
 ***
+[Back to top](#Flawless-Cooking-Cookery-School) 
+
 
 ## Bugs:
 1. Font Awesome fonts are copied into the code but when the webiste is loaded are not showing up. 
@@ -242,8 +260,11 @@ This site was tested to make sure it loaded correctly on
       1. Eventually discoverd that the margin wasn't set correctly as it was still set to the default margins.
 1. While generating the LightHouse Report I was getting an error due to some code that was appearing at the end of each of my .html files, but that I had not written nor was it appearing in GitPod
       1. I went through all my extension I have installed on Google Chrome and discovered that an app was inserting code into the site while in the preview 8000 mode.
-      1. I disabled the app and ran the Lighthouse report again which came back without the same feedback. 
+      1. I disabled the app and ran the Lighthouse report again which came back without the same feedback.
+
 ***
+[Back to top](#Flawless-Cooking-Cookery-School) 
+
 ## Valitation:
 
 See screenshot to W3C validator and Jigsaw CSS validator [here](VALIDATION.md "Link to validation screenshots")
@@ -286,3 +307,6 @@ No errors found
 1. I used various different coder forums at times when I had difficulty with aspects of the code. The use of sites such as [W3 Schools](https://www.w3schools.com/) and [Stack Overflow](https://stackoverflow.com/) were hugely helpful, as well as coding community sites like [Site Point Community](https://www.sitepoint.com/community/)  
 Any code taken from these sites were edited to site the needs of this site. 
 1. CSS Code for image on recipe page was help with by the tutors from Code Institute  
+
+*** 
+[Back to top](#Flawless-Cooking-Cookery-School) 
