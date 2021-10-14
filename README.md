@@ -195,6 +195,11 @@ It also has an embedded video on how to *Make a Flaxseed Egg* for any user who w
 The final page on the website is a *Gallery* page. This page contains all the header and footer features mentioned above.  
 ![Gallery Page](assets/readme-images/gallery-page-screenshot.png)
 
+## Future Features:
+* A rolling gallery in the *Gallery* page instead of a static gallery.
+* An upload your images section that allows users to upload images of recipes they have tried out.
+* A shop where users can buy vouchers or cooking equipment and accessories. 
+
 ***
 [Back to top](#Flawless-Cooking-Cookery-School)  
 
