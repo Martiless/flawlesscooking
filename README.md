@@ -120,7 +120,15 @@ Please see live site
 
 
 ### Color: 
-In order to create a visually appealing website but also a website that was easy for people to read I used a number of different sites to test color contrast
+In order to create a visually appealing website but also a website that was easy for people to read I used a number of different sites to test color contrast. I wanted to make sure the colour scheme was not only eye catching but also that it passed the LightHouse Assessibility test. 
+
+Initially I looked at what colours work best with the purple colour I had choosen as my main colour. I did this my using a colour wheel.  
+![Color Wheel](assets/readme-images/Color-ombinations-Cheat-Sheet.png)
+
+Following on from the colour wheel, an orange was decided upon to contrast the purple. In order to make sure text could be seen without issue on my choosen colours I used [Coolors](https://coolors.co/) colour contrast checker.
+
+![Colour Checker 1](assets/readme-images/text-area-contrast.png)
+![Colour Checker 2](assets/readme-images/button-color-checker.png)
 
 
 ### Font:
