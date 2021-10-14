@@ -772,6 +772,8 @@ h3 {
     }
 }
 
+/* Media Query for small mobile devices*/
+
 @media screen and (max-width:350px) {
     #middle {
         width: 100%;
