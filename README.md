@@ -26,7 +26,6 @@ This website has been created as the first Milestone project for Code Institute'
       1. [About](#About)
       1. [Recipes](#Recipes)
       1. [Gallery](#Gallery)
- 1. [Wireframe](#Wireframe) 
  1. [Testing](#Testing)
  1. [Bugs](#Bugs)
  1. [Validation](#Validation)
