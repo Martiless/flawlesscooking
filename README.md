@@ -236,7 +236,7 @@ Testing information can be viewed [here](TESTING.md "Link to testing information
 ***
 [Back to top](#Flawless-Cooking-Cookery-School) 
 
-## Valitation:
+## Validation:
 
 See screenshot to W3C validator and Jigsaw CSS validator [here](VALIDATION.md "Link to validation screenshots")
 

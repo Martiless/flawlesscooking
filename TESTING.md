@@ -36,3 +36,15 @@ This website was tested out on various web browsers to make sure evenything load
 ![Firefox](assets/readme-images/Mozilla-Firefox.png)
 
 ## User Testing:
+At various times throughout this process the website was viewed by a number of people including my mentor and family members.  
+Through these user testing sessions there were serval issues that arose.  
+* The header had a gap at the top while scrolling.
+* Video was cropped when viewed on mobile devices.  
+* Download button in the *Recipes* page was floated to the left of the page which broke the consistancy of the page.
+* The images in the *Gallery* page were very slow to load when a user landed on the page.  
+* On two of the page text and images were not aligned correctly. 
+* Inital form had a small text box and little padding around input sections. 
+* Introduction section on the *Home* page was not aligned correctly and extended out passed the main image. 
+* Alignment on all pages in order to keep consistancy throughout the website.   
+
+All feedback was taken on board and changes were made to make the user experience more enjoyable for potential useres to the website. 
