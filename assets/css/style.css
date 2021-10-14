@@ -271,7 +271,9 @@ footer h2 {
     width: 32%;
     margin: 1px;
 }
-
+#method li {
+    line-height: 25px;
+}
 #ingredients {
     float: left;
     width: 32%;
@@ -516,7 +518,7 @@ h3 {
 
     #middle {
         width: 90%;
-        height: 1000px;
+        height: 1200px;
         text-align: center;
         margin: auto
     }
