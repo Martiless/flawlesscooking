@@ -293,7 +293,7 @@ This project was developed using [GitPod](https://gitpod.io/), committed and pus
 Deploying on GitHub Pages
 To deploy this page to GitHub Pages from its GitHub repository, the following steps were taken:
 
-1. Log into GitHub or create an account.
+1. Log into GitHub.
 1. Locate the GitHub Repository.
 1. At the top of the repository, select Settings from the menu items.
 1. Scroll down the Settings page to the "GitHub Pages" section.
