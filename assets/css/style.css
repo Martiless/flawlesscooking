@@ -26,7 +26,7 @@ hr {
 
 .page-break {
     margin: 20px;
-    padding-bottom: 200px;
+    padding-bottom: 100px;
 }
 
 .page-break-second {
@@ -309,6 +309,11 @@ ul {
     display: inline-block;
 }
 
+
+#download {
+    text-align: center;
+    margin: 65px 5px;
+}
 .iframe {
     width: 600px;
     height: 350px;
@@ -444,8 +449,8 @@ h3 {
     }
 
     #image {
-        width: 33%;
-        height: 600px;
+        width: 600px;
+        height: 500px;
         margin: auto
     }
 
@@ -457,11 +462,9 @@ h3 {
     }
 
     #brownie {
-        clear: both;
-        width: 600px;
-        height: 500px;
-        padding: 0;
-        margin: 5px 130px;
+        width: inherit;
+        height: inherit;
+
     }
 
     .button {
@@ -728,10 +731,10 @@ h3 {
     }
 
     #image {
-        width: 33%;
-        height: 5px;
-        margin: 1px;
-        display: block;
+        width: 300px;
+        height: 250px;
+        margin: auto;
+
     }
 
     #ingredients {
@@ -750,11 +753,8 @@ h3 {
     }
 
     #brownie {
-        clear: both;
-        width: 250px;
-        height: 250px;
-        padding: 0;
-        margin: 5px 8px;
+        width: inherit;
+        height: inherit;
     }
 
     .button {
@@ -842,6 +842,7 @@ h3 {
         height: 1085px;
         margin-top: 180px;
     }
+
     #left-side-section {
         width: 250px;
         height: 250px;
