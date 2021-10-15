@@ -2,7 +2,7 @@
 
 This website is designed for a fictional cooking school based in Cork, Ireland. It is complete with an enquiry form for potential clients to get in contact with the school, an about section to tell people a little about the teacher and a gallery page which shows images of past students to the school. There is also a recipes page with a sample brownie recipe. This page also contains a downloadable version of the recipe and a video on how to make a flaxseed egg for anyone who would like to make a vegan-friendly version of the brownie.  
 
-This website has been created as the first Milestone project for Code Institute's Full Stack Software Development Diploma. It was built using HTML and CSS. GitPod was used for writing the code for this website, as well as commiting and pushing to GitHub. GitHub was then used to store the project after it had been pushed from GitPod. Once all the code had been written, GitPages was then used to deploy the website. 
+This website has been created as the first Milestone project for Code Institute's Full Stack Software Development Diploma. It was built using HTML and CSS. GitPod was used for writing the code for this website, as well as committing and pushing to GitHub. GitHub was then used to store the project after it had been pushed from GitPod. Once all the code had been written, GitPages was then used to deploy the website. 
 
 ![Am I Responsive](assets/readme-images/am-i-responsive.png)
 
@@ -32,7 +32,7 @@ This website has been created as the first Milestone project for Code Institute'
  1. [Bugs](#Bugs)
  1. [Technologies Used](#Technologies-Used)
  1. [Validation](#Validation)
- 1. [Accessibilty](#Accessibilty)
+ 1. [Accessibility](#Accessibility)
  1. [Deployment](#Deployment)
  1. [Credits](#Credits)
       1. [Content](#Content)
@@ -155,8 +155,8 @@ The font pairing for this website was [Italianno](https://fonts.google.com/speci
 
 ### Images:
 
-A lot of the imagery on this site was sourced from [Pexel](https://www.pexels.com/) with some real life images too.  
-All the images that were sourced from Pexel were uploaded to the site initially and were placed on the gallery page. However, after testing the site on a number of people it was said the images were taking too long to load and slowing down the Gallery page. To enhance the user experience on the Gallery page all the Pexel images were compressed and uploaded again. This meant that the quality of the image was still high while the page loaded quicker making it a nicer experience for any potential user.  
+A lot of the imagery on this site was sourced from [Pexel](https://www.pexels.com/) with some real-life images too.  
+All the images that were sourced from Pexel were uploaded to the site initially and were placed on the gallery page. However, after testing the site with several people it was said the images were taking too long to load and slowing down the Gallery page. To enhance the user experience on the Gallery page all the Pexel images were compressed and uploaded again. This meant that the quality of the image was still high while the page loaded quicker making it a nicer experience for any potential user.  
 
 ***
 [Back to top](#Flawless-Cooking-Cookery-School)  
@@ -200,7 +200,7 @@ The final page on the website is a *Gallery* page. This page contains all the he
 
 ## Future Features:
 * A rolling gallery in the *Gallery* page instead of a static gallery.
-* An upload your images section that allows users to upload images of recipes they have tried out.
+* An upload your images section which allows users to upload images of recipes they have tried out.
 * A shop where users can buy vouchers or cooking equipment and accessories. 
 * A rolling testimonial in the footer, allowing users to see feedback from previous clients.
 
@@ -216,11 +216,11 @@ We are looking to see if we have met all the goals we set out.
 * As a new user, I am looking to contact the school.   
       __Met on the home page of the website in the form of the enquiries form__  
 * As a new user, I would like to find out more about the person who will be teaching my child.  
-      __Met on the About page of the website, you get to know more about the teacher and the experince she was__   
+      __Met on the About page of the website, you get to know more about the teacher and the experience she was__   
 * As a new user, I would like to see pictures of past students of the school.  
-      __Met on the Gallery page of the website. Photos will be update on a regular basis__
+      __Met on the Gallery page of the website. Photos will be updated regularly__
 * As a new user, I would like to get an idea of the types of recipes my child will be learning.  
-      __Met on the Recipes page. Ideally this page will be updated with new recipes on a monthly basis__
+      __Met on the Recipes page. Ideally this page will be updated with new recipes monthly__
 
 ***
 
@@ -246,7 +246,7 @@ Testing information can be viewed [here](TESTING.md "Link to testing information
       1. Finally contacted the Code Institute tutors who helped me see that I was missing some closing brackets from a previous media query that was causing the code from the About page to be overwritten. Once these brackets were closed the page loaded correctly.
 1. When I was making my site responsive pages recipe page started to load wrong, i.e the footer was above the middle section of the page. 
       1. I was having a really hard time with this one as I had double and triple checked all my code in GitPod and also used Google Dev tools and couldn't see any problem. I eventually decided to used the Tutor service where one of the tutors explained to me about flex and flex-box as a way of displaying content instead of floats. By changing the image's CSS from a float to a flex corrected the issue I was having.
-1. Navigation bar was not responding correctly when viewed in tablet form. 
+1. The navigation bar was not responding correctly when viewed in tablet form. 
       1. Used Google Dev Tools to try different methods of getting the page to work.
       1. Eventually discovered that the margin wasn't set correctly as it was still set to the default margins.
 1. While generating the LightHouse Report I was getting an error due to some code that was appearing at the end of each of my .html files, but that I had not written nor was it appearing in GitPod
@@ -257,7 +257,7 @@ Testing information can be viewed [here](TESTING.md "Link to testing information
 [Back to top](#Flawless-Cooking-Cookery-School) 
 
 ## Technologies Used:
-For the purpose of this project the following technologies were used.  
+For the purpose of this project, the following technologies were used.  
 
 ### Languages:
 * HTML
@@ -266,7 +266,7 @@ For the purpose of this project the following technologies were used.
 ### Frameworks, Libraries, Programs & Applications Used:
 
 #### Google Font
-* Google fonts was used to import the following fonts [Italianno](https://fonts.google.com/specimen/Italianno?preview.text=Love%20Running%20&preview.text_type=custom&query=ita), [Roboto](https://fonts.google.com/specimen/Roboto?preview.text=Love%20Running%20&preview.text_type=custom&query=ro) and [Amatic SC](https://fonts.google.com/specimen/Amatic+SC?query=Amatic+SC). These were imported to style.css and were used throughout the project.  
+* Google fonts were used to import the following fonts [Italianno](https://fonts.google.com/specimen/Italianno?preview.text=Love%20Running%20&preview.text_type=custom&query=ita), [Roboto](https://fonts.google.com/specimen/Roboto?preview.text=Love%20Running%20&preview.text_type=custom&query=ro) and [Amatic SC](https://fonts.google.com/specimen/Amatic+SC?query=Amatic+SC). These were imported to style.css and were used throughout the project.  
 
 #### Font Awesome
 * Font Awesome was used on each page of the website to provide icons for UX purposes.  
@@ -281,13 +281,13 @@ For the purpose of this project the following technologies were used.
 * GitPages was used to deploy the project.
 
 #### Balsamiq 
-* Balsamiq was used to draw inital Wireframes for this project.
+* Balsamiq was used to draw initial Wireframes for this project.
 
 #### Figma
 * Figma was used during the structure phase of this project. It was used to create a sitemap of the website. 
 
 #### Am I Responsive
-* Am I Responsive was used to check that each page of the site was responsive. It was also used to create the mock up image seen at the beginning of this document. 
+* Am I Responsive was used to check that each page of the site was responsive. It was also used to create the mock-up image seen at the beginning of this document. 
 
 #### Google Development Tools
 * Google Dev Tools was used to edit code and check responsiveness before making the changes permanent.
@@ -330,7 +330,7 @@ To deploy this page to GitHub Pages from its GitHub repository, the following st
 1. Locate the GitHub Repository you are using.
 1. At the top of the repository, select Settings from the menu items.
 1. Scroll down the Settings page to the "GitHub Pages" section.
-1. Click on the link provided. To opens a new tab, right click on your mouse and select open in new tab.
+1. Click on the link provided. To open a new tab, right click on your mouse and select open in a new tab.
 1. Under "Source" click the drop-down menu labelled "None" and select "Main". Once this is done click on "save"
 1. Once you have clicked save, the page will automatically refresh. You will now get a link to the deployed website.
 1. Copy this link and off you go. 
@@ -342,7 +342,7 @@ To deploy this page to GitHub Pages from its GitHub repository, the following st
 
 1. The icons used throughout the website were taken from [Font Awesome](https://fontawesome.com/)  
 1. The logo and heading fonts were taken from [Google Fonts](https://fonts.google.com/)
-1. Instructions on who to crop an image was taken from [Digital Ocean](https://www.digitalocean.com/)
+1. Instructions on who to crop an image were taken from [Digital Ocean](https://www.digitalocean.com/)
 
 ### Media:
 
@@ -353,7 +353,7 @@ To deploy this page to GitHub Pages from its GitHub repository, the following st
 
 1. I used various coder forums at times when I had difficulty with aspects of the code. The use of sites such as [W3 Schools](https://www.w3schools.com/) and [Stack Overflow](https://stackoverflow.com/) was hugely helpful, as well as coding community sites like [Site Point Community](https://www.sitepoint.com/community/)  
 Any code taken from these sites were edited to suit the needs of this site. 
-1. CSS Code for the image on the *Recipe* page was help with by the tutors from Code Institute  
+1. CSS Code for the image on the *Recipe* page helped with by the tutors from Code Institute  
 
 *** 
 [Back to top](#Flawless-Cooking-Cookery-School) 
